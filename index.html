@@ -1,0 +1,1465 @@
+<!DOCTYPE html>
+<html ng-app="htmlFormApp">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-git2.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+<script src="jquery.maskedinput.js" type="text/javascript"></script>
+<script type="text/javascript" src="implementaion.js"></script>
+<link rel="stylesheet" type="text/css" href="main.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="http://www.rpsdemo.com/sitejs/jscolor.min.js"></script>
+
+
+<title>Real Pro Systems Implementation Brief</title>
+</head>
+<body>
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+<img class="img-responsive center-block" src="http://cdn.realprosystems.com/wp-content/uploads/2015/11/RPSlogo2015Final_210x57.png" style="margin-top: 30px; margin-bottom: 20px;" />
+</div>
+<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+<div class="text-center">
+<div class="text-center">
+<h1>Real Pro Systems Implementation Brief</h1>
+</div>
+<div>
+<h3>We have questions, you have answers.</h3>
+<p>Completing this form provides your Real Pro Systems Implementation Coordinator with the information they need to create your new website.</p>
+<p>The information you provide is what will be displayed on your website. Please provide the information that you would like shared with the world.</p>
+<hr>
+<p><b>Please note, the completion and submission of this form is required before the creation of your new website will begin.</b></p>
+</div>
+</div>
+</div>
+
+<form name="userForm" id="userForm" novalidate action="http://ws.realproserver.com/lde/process" method="post">
+<input type="hidden" value="76392" name="_disid">
+<input id="return" type="hidden" value="http://www.rpsdemo.com/page/implementation-brief-thank-you" name="return">
+<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+<div class="panel panel-default">
+<div class="panel-heading text-center">
+<h3>Design Selection</h3>
+</div>
+<div class="panel-body">
+<div class="form-group" ng-controller="FormController">
+<div class="row">
+               <div class="form-group col-xs-12 col-sm-4 text-center">
+<h4>Design R101</h4>
+                               <label class="btn btn-primary btn-block btn-design colour">
+                                                <input name="designSelectionMade" id="designR101" ng-model="checkedDesignSelection" ng-value="false" value="R101" ng-click="uncheckDesignSelection($event)" type="radio" hidden>
+                                                <img class="demoImage center-block img-responsive" src="http://www.rpsdemo.com/agent_files/r101-thumbnail.jpg">
+                               </label>
+                               <a href="http://www.r101.rpsdemo.com/" target="_blank">View the R101 Demo site</a>
+                               <h4>R101 Example Sites:</h4>
+                               <a href="http://www.kathytoomey.com/" target="_blank">Kathy Toomey</a><br>
+                               <a href="http://www.realestatefirm.com/" target="_blank">Real Estate Firm</a><br>
+                               <a href="http://www.projectrealtygroup.com/" target="_blank">Project Realty Group</a><br>
+                               <a href="http://www.lindafrierdich.com/" target="_blank">Linda Frierdich</a>
+               </div>
+               <div class="form-group col-xs-12 col-sm-4 text-center">
+<h4>Design R102</h4>
+                               <label class="btn btn-primary btn-block btn-design colour">
+                                                <input name="designSelectionMade" id="designR102" ng-model="checkedDesignSelection" ng-value="false" value="R102" ng-click="uncheckDesignSelection($event)" type="radio" hidden>
+                                                <img class="demoImage center-block img-responsive" src="http://www.rpsdemo.com/agent_files/r102-thumbnail.jpg">
+                               </label>
+                   <a href="http://www.r102.rpsdemo.com/" target="_blank">View the R102 Demo site</a>
+                   <h4>R102 Example Sites:</h4>
+                   <a href="http://www.marylanddelawarebeachhomes.com/" target="_blank">Maryland Delaware Beach Homes</a><br>
+                   <a href="http://www.halliemagden.com/" target="_blank">Hallie Magden</a><br>
+                   <a href="http://www.mjagostini.com/" target="_blank">MJ Agostini</a><br>
+                   <a href="http://www.tammiebell.net/" target="_blank">Tammie Bell</a>
+               </div>
+               <div class="form-group col-xs-12 col-sm-4 text-center">
+<h4>Design R103</h4>
+                               <label class="btn btn-primary btn-block btn-design colour">
+                                                <input name="designSelectionMade" id="designR103" ng-model="checkedDesignSelection" ng-value="false" value="R103" ng-click="uncheckDesignSelection($event)" type="radio" hidden>
+                                                <img class="demoImage center-block img-responsive" src="http://www.rpsdemo.com/agent_files/r103-thumbnail.jpg">
+                               </label>
+                               <a href="http://www.r103.rpsdemo.com/" target="_blank">View the R103 Demo site</a>
+                               <h4>R103 Example Sites:</h4>
+                               <a href="http://www.thesmartmoveteam.com/" target="_blank">The Smart Move Team</a><br>
+                               <a href="http://www.summerwindrealtysf.com/" target="_blank">Summer Wind Realty</a><br>
+                               <a href="http://www.maggielove.com/" target="_blank">Maggie Love</a><br>
+                               <a href="http://www.tristarteamre.com/" target="_blank">Tri Star Team</a>
+               </div>
+</div>
+<p class="text-center">The examples provided are for demonstration purposes only. These are live client sites based on the corresponding design selection which may include additional customization that the customer paid for. Please refer to the primary design demo for what is included with you selected design.</p>
+
+<div style="text-align: center;">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Scope of Design Work</button>
+<br><br>
+<label>
+I have read and agree to the Scope of Design Work
+<input type="checkbox" name="Agree to Scope of Work" value="Yes" id="yesAgree"><!--Add "required" once the scope of work is udpated-->
+</label>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+ <div class="modal-dialog" role="document">
+   <div class="modal-content">
+     <div class="modal-header">
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
+       <h3 class="modal-title text-center" id="myModalLabel">Scope of Design Work</h4>
+     </div>
+     <div class="modal-body">
+       More information coming soon.
+     </div>
+     <div class="modal-footer">
+       <button type="button" class="btn btn-primary" data-dismiss="modal">Done</button>
+     </div>
+   </div>
+ </div>
+</div>
+
+<br><br>
+<div class="form-group">
+<label for="doYouHaveLogo" class="">Do you have a company logo?</label>
+<div class="radio form-group">
+<label>
+<input type="radio" name="Has Logo" id="noLogoRadioButton" ng-model="checkedLogo" ng-value="false" value="no" ng-click="uncheckLogo($event)">No
+</label>
+<label>
+<input type="radio" name="Has Logo" id="yesLogoRadioButton" ng-model="checkedLogo" ng-value="true" value="yes" ng-click="uncheckLogo($event)">Yes
+</label>
+</div>
+</div>
+<div class="form-group" ng-show="checkedLogo">
+<input type="file" name="file" onchange="angular.element(this).scope().uploadFile(this.files)"/>Upload Logo File
+<p>Logo file must be 480x70 pixels or smaller and in jpg or png format.</p>
+</div>
+
+
+<br>
+<h3>Color Selection</h3>
+<div class="form-group row">
+   <div class="col-xs-12 col-sm-4">
+<label value="remaxColours">
+<input value="remaxColours" type="checkbox" style="margin-right:10px;" class="checkbox-inline colorSelect" name="remaxColours" id="remaxColours" value="remaxColours">Remax
+<br><br>
+<div id="colourContainer1" style="border-style: solid; border-width: 1px;">
+<div id="triangle-topleft1">
+</div>
+</div>
+</label>
+</div>
+   <div class="col-xs-12 col-sm-4">
+<label value="coldwellColours">
+<input value="coldwellColours" type="checkbox" style="margin-right:10px;" class="checkbox-inline colorSelect" name="coldwellColours" id="coldwellColours">Coldwell
+<br><br>
+<div id="colourContainer2" style="border-style: solid; border-width: 1px;">
+<div id="triangle-topleft2">
+</div>
+</div>
+</label>
+</div>
+   <div class="col-xs-12 col-sm-4">
+<label value="kellerWilliamsColours">
+<input value="kellerWilliamsColours" type="checkbox" style="margin-right:10px;" class="checkbox-inline colorSelect" name="kellerWilliamsColours" id="kellerWilliamsColours">Keller Williams
+<br><br>
+<div id="colourContainer3" style="border-style: solid; border-width: 1px;">
+<div id="triangle-topleft3">
+</div>
+</div>
+</label>
+</div>
+   <div class="col-xs-12 col-sm-4">
+<label value="berkshireColours">
+<input value="berkshireColours" type="checkbox" style="margin-right:10px;" class="checkbox-inline colorSelect" name="berkshireColours" id="berkshireColours">Berkshire Hathaway
+<br><br>
+<div id="colourContainer4" style="border-style: solid; border-width: 1px;">
+<div id="triangle-topleft4">
+</div>
+</div>
+</label>
+</div>
+   <div class="col-xs-12 col-sm-4">
+<label value="century21Colours">
+<input value="century21Colours" type="checkbox" style="margin-right:10px;" class="checkbox-inline colorSelect" name="century21Colours" id="century21Colours">Century21
+<br><br>
+<div id="colourContainer5" style="border-style: solid; border-width: 1px;">
+<div id="triangle-topleft5">
+</div>
+</div>
+</label>
+</div>
+<div class="col-xs-12 col-sm-4">
+<label value="customColours">
+<input value="customColours" type="checkbox" style="margin-right:10px;" class="checkbox-inline colorSelect" name="customColours" id="customColours">Custom
+<br><br>
+<div id="colourContainer6" style="border-style: solid; border-width: 1px;">
+<div id="triangle-topleft6" style="border-top-color:#000;">
+</div>
+</div>
+</label>
+<label for="custColor1" class="custColorLabel">Color1:</label>
+<input class="jscolor custColor" value="ffffff" id="custColor1" name="custColor1">
+<label for="custColor2" class="custColorLabel">Color2:</label>
+<input class="jscolor custColor" value="000000" id="custColor2" name="custColor2">
+</div>
+</div>
+
+
+
+</div>
+</div>
+<div class="panel-footer">1 of 9</div>
+</div>
+</div>
+
+
+<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+<div class="panel panel-default">
+<div class="panel-heading text-center">
+<h3>Business Information</h3>
+</div>
+<div class="panel-body">
+<div class="row">
+<div class="form-group col-xs-12 col-sm-6">
+<label for="firstname">First Name*</label>
+<input type="text" class="form-control" id="" name="firstname" placeholder="First Name" ng-model="firstName" ng-touched required>
+</div>
+<div class="form-group col-xs-12 col-sm-6">
+<label for="lastname">Last Name*</label>
+<input type="text" class="form-control" id="" name="lastname" placeholder="Last Name" ng-model="lastName" required>
+</div>
+<div class="form-group col-xs-12">
+<label for="companyName">Company Name*</label>
+<input type="text" class="form-control" id="" name="Company Name" ng-model="companyName" required placeholder="Company Name">
+</div>
+<div class="form-group col-xs-12">
+<label for="address">Office Address*</label>
+<input type="text" class="form-control" id="" name="Address" ng-model="companyAddress" required placeholder="Street Address">
+</div>
+<div class="form-group col-xs-12 col-sm-6">
+<label for="city">City*</label>
+<input type="text" class="form-control" id="" name="City" ng-model="companyCity" required placeholder="City">
+</div>
+<div class="form-group col-xs-12 col-sm-3">
+<label for="state">State*</label>
+<input type="text" class="form-control" id="" name="State" ng-model="companyState" required placeholder="State/Province">
+</div>
+<div class="form-group col-xs-12 col-sm-3">
+<label for="zipcode">Zip Code*</label>
+<input type="text" pattern="^[0-9]{5}(?:-[0-9]{4})?$" class="form-control" id="" name="Zip Code" ng-model="companyZip" required placeholder="ZIP/Postal Code">
+</div>
+<div class="form-group col-xs-12 col-sm-6">
+<label for="phone1">Phone*</label>
+<input type="tel" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" class="form-control phone" id="" name="phone1" ng-model="companyPhone" placeholder="Phone Number" required >
+</div>
+<div class="form-group col-xs-12 col-sm-6">
+<label for="phone1">Fax Number</label>
+<input type="text" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" class="form-control fax" id="" name="fax1" placeholder="Fax Number">
+</div>
+<div class="form-group col-xs-12">
+<label for="email1">Email*</label>
+<input type="email" class="form-control" id="" name="email1" ng-model="email" required placeholder="Email">
+</div>
+</div>
+</div>
+<div class="panel-footer">2 of 9</div>
+</div>
+</div>
+
+
+
+<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+<div class="panel panel-default">
+<div class="panel-heading text-center">
+<h3>Website Address</h3>
+<p>We will need access to your domain registrar account to point your domain to the new website. We will also set up the URL masking for your IDX pages. This adds SEO benefit to your home search tool.
+</div>
+<div class="panel-body">
+
+<div class="form-group" ng-controller="FormController">
+<label for="domainNameUsedForWebsite">What domain name will be used for this website?*</label>
+<input type="text" class="form-control" id="" name="Primary Domain" ng-model="domainName" required placeholder="Domain Name">
+</div>
+<div class="form-group" ng-controller="FormController">
+<label for="domainNameUsedForWebsite">What domain name will be used for the Buyer stealth website?*</label>
+<input type="text" class="form-control" id="" name="EHS Domain" ng-model="domainName" required placeholder="Domain Name">
+</div>
+<div class="form-group" ng-controller="FormController">
+<label for="domainNameUsedForWebsite">What domain name will be used for the Seller stealth website?*</label>
+<input type="text" class="form-control" id="" name="CMA Domain" ng-model="domainName" required placeholder="Domain Name">
+</div>
+<div class="form-group">
+<label for="whoDomainRegistered">Who is your domain registered with?</label>
+<input type="text" class="form-control" id="" name="Domain Registrar" placeholder="Domain Resistered With">
+</div>
+<div class="form-group">
+<label for="registrarUsername">Registrar Username</label>
+<input type="text" class="form-control" id="" name="Domain Registrar Username" placeholder="Registrar Username">
+</div>
+<div class="form-group">
+<label for="registrarPassword">Registrar Password</label>
+<input type="password" class="form-control" id="" name="Domain Registrar Password" placeholder="Registrar Password">
+</div>
+<div class="form-group" ng-controller="FormController">
+<label for="wordPressInstalledAtDomain">Is this domain currently associated with a website?</label>
+<div class="radio form-group">
+<label>
+<input type="radio" name="Domain currently in use" id="domainRadio" ng-model="checkedDomain" value="no" ng-value="false" ng-click="uncheckDomain($event)">No
+</label>
+<label>
+<input type="radio" name="Domain currently in use" id="domainRadio" ng-model="checkedDomain" ng-value="true" value="yes" ng-click="uncheckDomain($event)">Yes
+</label>
+</div>
+</div>
+</div>
+<div class="panel-footer">3 of 9</div>
+</div>
+</div>
+
+<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+<div class="panel panel-default">
+<div class="panel-heading text-center">
+<h3>IDX Home Search</h3>
+<p>This information will allow us to establish your IDX Broker Platinum account for home search on your website.</p>
+</div>
+<div class="panel-body">
+<div class="form-group">
+
+<!--
+<div class="">
+<label value="mlsOption">
+<input value="mlsOption" type="checkbox" style="margin-right: 10px;" class="checkbox-inline" id="mlsOption" value="noIDKBroker" ng-model="checkedMLS">This site will not include IDX Broker.
+</label>
+</div> -->
+<label>MLS Board(s)*</label>
+<select ng-hide="checkedMLS" class="form-control" size="6" multiple name="MLS" ng-model="mlsBoards" required>
+<option value='Acadiana MLS (RAAMLS) (Louisiana)'>Acadiana MLS (RAAMLS) (Louisiana)</option>
+<option value='Adirondack-Champlain Valley MLS (ACVMLS) (New York)'>Adirondack-Champlain Valley MLS (ACVMLS) (New York)</option>
+<option value='Aiken MLS (AMLS) (South Carolina)'>Aiken MLS (AMLS) (South Carolina)</option>
+<option value='Alaska MLS (AKMLS) (Alaska)'>Alaska MLS (AKMLS) (Alaska)</option>
+<option value='Albemarle MLS (AMLS) (North Carolina)'>Albemarle MLS (AMLS) (North Carolina)</option>
+<option value='Alberta MLS (AMLSCA) (Alberta)'>Alberta MLS (AMLSCA) (Alberta)</option>
+<option value='Allegheny (AHMLS) (Pennsylvania)'>Allegheny (AHMLS) (Pennsylvania)</option>
+<option value='Allegheny Highland MLS FTP (AHAR) (Pennsylvania)'>Allegheny Highland MLS FTP (AHAR) (Pennsylvania)</option>
+<option value='Allegheny Highland MLS RETS (AHAR) (Pennsylvania)'>Allegheny Highland MLS RETS (AHAR) (Pennsylvania)</option>
+<option value='Altus MLS (Altus) (Oklahoma)'>Altus MLS (Altus) (Oklahoma)</option>
+<option value='Amador County MLS (ACOMLS) (California)'>Amador County MLS (ACOMLS) (California)</option>
+<option value='Amarillo MLS (AARMLS) (Texas)'>Amarillo MLS (AARMLS) (Texas)</option>
+<option value='Amelia Island Nassau County MLS (AINCMLS) (Florida)'>Amelia Island Nassau County MLS (AINCMLS) (Florida)</option>
+<option value='Ann Arbor Area MLS (AAAMLS) (Michigan)'>Ann Arbor Area MLS (AAAMLS) (Michigan)</option>
+<option value='Antelope Valley MLS (ANTV) (California)'>Antelope Valley MLS (ANTV) (California)</option>
+<option value='Arizona Regional MLS (ARMLS) (Arizona)'>Arizona Regional MLS (ARMLS) (Arizona)</option>
+<option value='Arrowhead MLS (AHMLS) (Minnesota)'>Arrowhead MLS (AHMLS) (Minnesota)</option>
+<option value='Ashland Kentucky MLS (AABRKYMLS)'>Ashland Kentucky MLS (AABRKYMLS)</option>
+<option value='Aspen Glenwood Springs MLS (AGSMLS) (Colorado)'>Aspen Glenwood Springs MLS (AGSMLS) (Colorado)</option>
+<option value='Athens Area MLS (AAMLS) (Georgia)'>Athens Area MLS (AAMLS) (Georgia)</option>
+<option value='Athens Area MLS RETS (AAMLS) (Georgia)'>Athens Area MLS RETS (AAMLS) (Georgia)</option>
+<option value='Augusta GA MLS (AUGMLS) (Georgia)'>Augusta GA MLS (AUGMLS) (Georgia)</option>
+<option value='Augusta GA RETS (AUGMLS) (Georgia)'>Augusta GA RETS (AUGMLS) (Georgia)</option>
+<option value='Austin MLS (ACTRIS) (Texas)'>Austin MLS (ACTRIS) (Texas)</option>
+<option value='Bahamas MLS (BMLS) (Bahamas)'>Bahamas MLS (BMLS) (Bahamas)</option>
+<option value='Bakersfield MLS (BKMLS) (California)'>Bakersfield MLS (BKMLS) (California)</option>
+<option value='Baldwin County MLS (BCMLS) (Alabama)'>Baldwin County MLS (BCMLS) (Alabama)</option>
+<option value='Baton Rouge MLS (BRMLS) (Louisiana)'>Baton Rouge MLS (BRMLS) (Louisiana)</option>
+<option value='Bay Area Real Estate Info Services (BAREIS) (California)'>Bay Area Real Estate Info Services (BAREIS) (California)</option>
+<option value='Bayou MLS FTP (BMLS) (Louisiana)'>Bayou MLS FTP (BMLS) (Louisiana)</option>
+<option value='Bayou MLS RETS (BMLS) (Louisiana)'>Bayou MLS RETS (BMLS) (Louisiana)</option>
+<option value='Beaches MLS (RAPB) (Florida)'>Beaches MLS (RAPB) (Florida)</option>
+<option value='Beaufort MLS (BEMLS) (South Carolina)'>Beaufort MLS (BEMLS) (South Carolina)</option>
+<option value='Beaumont MLS (BEAU) (Texas)'>Beaumont MLS (BEAU) (Texas)</option>
+<option value='Bemidji MLS (Bemidji) (Minnesota)'>Bemidji MLS (Bemidji) (Minnesota)</option>
+<option value='Berkshire County MLS (BCMLS) (Massachusetts)'>Berkshire County MLS (BCMLS) (Massachusetts)</option>
+<option value='Big Bear MLS (BBVMLS) (California)'>Big Bear MLS (BBVMLS) (California)</option>
+<option value='Billings MLS (BMTMLS) (Montana)'>Billings MLS (BMTMLS) (Montana)</option>
+<option value='Bishop MLS (BMLS) (California)'>Bishop MLS (BMLS) (California)</option>
+<option value='Bismarck-Mandan MLS (BMMLS) (North Dakota)'>Bismarck-Mandan MLS (BMMLS) (North Dakota)</option>
+<option value='Black Hills MLS (BHMLS) (South Dakota)'>Black Hills MLS (BHMLS) (South Dakota)</option>
+<option value='Bloomington-Normal MLS (BNARMLS) (Illinois)'>Bloomington-Normal MLS (BNARMLS) (Illinois)</option>
+<option value='Bloomington-Normal MLS RETS (BLOOMRETS) (Illinois)'>Bloomington-Normal MLS RETS (BLOOMRETS) (Illinois)</option>
+<option value='Bonita Springs-Estero MLS (BEARMLS) (Florida)'>Bonita Springs-Estero MLS (BEARMLS) (Florida)</option>
+<option value='Brazoria MLS (BMLS) (Texas)'>Brazoria MLS (BMLS) (Texas)</option>
+<option value='Brevard MLS (BMLS) (Florida)'>Brevard MLS (BMLS) (Florida)</option>
+<option value='British Columbia MLS (BCCAMLS) (British Columbia)'>British Columbia MLS (BCCAMLS) (British Columbia)</option>
+<option value='Brooklyn MLS (BNYMLS) (New York)'>Brooklyn MLS (BNYMLS) (New York)</option>
+<option value='Brownsville-South Padre Island BOR RETS (BSPIBOR) (Texas)'>Brownsville-South Padre Island BOR RETS (BSPIBOR) (Texas)</option>
+<option value='Brunswick County MLS (BRWC) (North Carolina)'>Brunswick County MLS (BRWC) (North Carolina)</option>
+<option value='Bryan-College Station MLS (BCSMLS) (Texas)'>Bryan-College Station MLS (BCSMLS) (Texas)</option>
+<option value='Burlington Alamance MLS (BURMLS) (North Carolina)'>Burlington Alamance MLS (BURMLS) (North Carolina)</option>
+<option value='Butte MLS (Butte) (Montana)'>Butte MLS (Butte) (Montana)</option>
+<option value='Calaveras County MLS (CCARMLS) (California)'>Calaveras County MLS (CCARMLS) (California)</option>
+<option value='Calgary Real Estate Board (CREB) (Alberta)'>Calgary Real Estate Board (CREB) (Alberta)</option>
+<option value='Calhoun County MLS (CCMLS)'>Calhoun County MLS (CCMLS)</option>
+<option value='California Real Estate Technology Services (CARETS) (California)'>California Real Estate Technology Services (CARETS) (California)</option>
+<option value='California Regional MLS (CRMLS) (California)'>California Regional MLS (CRMLS) (California)</option>
+<option value='Cambria Somerset FTP (CSMLS) (Pennsylvania)'>Cambria Somerset FTP (CSMLS) (Pennsylvania)</option>
+<option value='Cape Cod MLS (CCMLS) (Massachusetts)'>Cape Cod MLS (CCMLS) (Massachusetts)</option>
+<option value='Cape Coral MLS (CapeCoral) (Florida)'>Cape Coral MLS (CapeCoral) (Florida)</option>
+<option value='Cape Girardeau County MLS (CGCMLS) (Missouri)'>Cape Girardeau County MLS (CGCMLS) (Missouri)</option>
+<option value='Cape Girardeau County MLS (CGCMLS)'>Cape Girardeau County MLS (CGCMLS)</option>
+<option value='Cape May County MLS (CMCAOR) (New Jersey)'>Cape May County MLS (CMCAOR) (New Jersey)</option>
+<option value='Capital Area MLS (CAMLS) (Illinois)'>Capital Area MLS (CAMLS) (Illinois)</option>
+<option value='Capital Region MLS (CRMLS) (New York)'>Capital Region MLS (CRMLS) (New York)</option>
+<option value='Carbon Emery MLS (CEMLS) (Utah)'>Carbon Emery MLS (CEMLS) (Utah)</option>
+<option value='Carolina MLS (CMLS) (North Carolina)'>Carolina MLS (CMLS) (North Carolina)</option>
+<option value='Carroll MLS (CARRMLS) (Iowa)'>Carroll MLS (CARRMLS) (Iowa)</option>
+<option value='Catawba Valley MLS (CVMLS) (North Carolina)'>Catawba Valley MLS (CVMLS) (North Carolina)</option>
+<option value='Cedar Rapids MLS (CDRMLS) (Iowa)'>Cedar Rapids MLS (CDRMLS) (Iowa)</option>
+<option value='Central Arizona MLS (CAZBR) (Arizona)'>Central Arizona MLS (CAZBR) (Arizona)</option>
+<option value='Central Coast Regional MLS (CCRMLS) (California)'>Central Coast Regional MLS (CCRMLS) (California)</option>
+<option value='Central Georgia MLS (CGMLS) (Georgia)'>Central Georgia MLS (CGMLS) (Georgia)</option>
+<option value='Central Illinois MLS (CLMLS) (Illinois)'>Central Illinois MLS (CLMLS) (Illinois)</option>
+<option value='Central Iowa/Ames MLS (AMES) (Iowa)'>Central Iowa/Ames MLS (AMES) (Iowa)</option>
+<option value='Central MS MLS (JKMLS) (Mississippi)'>Central MS MLS (JKMLS) (Mississippi)</option>
+<option value='Central Penn Multi-List (CPMLS) (Pennsylvania)'>Central Penn Multi-List (CPMLS) (Pennsylvania)</option>
+<option value='Central Susquehanna Valley Board of Realtors (CSVBR) (Pennsylvania)'>Central Susquehanna Valley Board of Realtors (CSVBR) (Pennsylvania)</option>
+<option value='Central Utah MLS (CUMLS)'>Central Utah MLS (CUMLS)</option>
+<option value='Central Virginia Regional MLS (CVRMLS) (Virginia)'>Central Virginia Regional MLS (CVRMLS) (Virginia)</option>
+<option value='Central West Tennessee (CWTAR) (Tennessee)'>Central West Tennessee (CWTAR) (Tennessee)</option>
+<option value='Central Wisconsin MLS (CWMLS) (Wisconsin)'>Central Wisconsin MLS (CWMLS) (Wisconsin)</option>
+<option value='Centre County MLS FTP (CentreMLS) (Pennsylvania)'>Centre County MLS FTP (CentreMLS) (Pennsylvania)</option>
+<option value='Centre County RETS (CentreMLS) (Pennsylvania)'>Centre County RETS (CentreMLS) (Pennsylvania)</option>
+<option value='Chaffee County MLS (CCBMLS) (Colorado)'>Chaffee County MLS (CCBMLS) (Colorado)</option>
+<option value='Champaign County MLS (CHMLS) (Illinois)'>Champaign County MLS (CHMLS) (Illinois)</option>
+<option value='Charleston Trident Commercial MLS (CTCMLS) (South Carolina)'>Charleston Trident Commercial MLS (CTCMLS) (South Carolina)</option>
+<option value='Charleston Trident MLS (CTMLS) (South Carolina)'>Charleston Trident MLS (CTMLS) (South Carolina)</option>
+<option value='Charlottesville MLS (CAARMLS) (Virginia)'>Charlottesville MLS (CAARMLS) (Virginia)</option>
+<option value='Chattanooga MLS (CHTMLS) (Tennessee)'>Chattanooga MLS (CHTMLS) (Tennessee)</option>
+<option value='Chautauqua County Board of Realtors MLS (CCBR) (New York)'>Chautauqua County Board of Realtors MLS (CCBR) (New York)</option>
+<option value='Chesapeake Bay and Rivers MLS (CBRMLS) (Virginia)'>Chesapeake Bay and Rivers MLS (CBRMLS) (Virginia)</option>
+<option value='Cheyenne MLS (CYMLS) (Wyoming)'>Cheyenne MLS (CYMLS) (Wyoming)</option>
+<option value='Cincinnati MLS (CincyMLS) (Ohio)'>Cincinnati MLS (CincyMLS) (Ohio)</option>
+<option value='Citrus County MLS (CCMLS) (Florida)'>Citrus County MLS (CCMLS) (Florida)</option>
+<option value='Clare-Gladwin MLS (CGBOR) (Michigan)'>Clare-Gladwin MLS (CGBOR) (Michigan)</option>
+<option value='Clatsop MLS (CMLS) (Oregon)'>Clatsop MLS (CMLS) (Oregon)</option>
+<option value='Clear Lake Iowa MLS (CLAKMLS) (Iowa)'>Clear Lake Iowa MLS (CLAKMLS) (Iowa)</option>
+<option value='Clinton MLS (CLINMLS) (Iowa)'>Clinton MLS (CLINMLS) (Iowa)</option>
+<option value='CLS Ocean Reef MLS (CLSOR) (Florida)'>CLS Ocean Reef MLS (CLSOR) (Florida)</option>
+<option value='Coastal Association MLS (CAMLS) (Maryland)'>Coastal Association MLS (CAMLS) (Maryland)</option>
+<option value='Coastal Bend Association of Realtors (CBAOR) (Texas)'>Coastal Bend Association of Realtors (CBAOR) (Texas)</option>
+<option value='Coastal Bend MLS (CCARMLS) (Texas)'>Coastal Bend MLS (CCARMLS) (Texas)</option>
+<option value='Coastal Carolinas MLS (CCAR) (South Carolina)'>Coastal Carolinas MLS (CCAR) (South Carolina)</option>
+<option value='Coeur  d'Alene MLS (CDMLS) (Idaho)'>Coeur d'Alene MLS (CDMLS) (Idaho)</option>
+<option value='Colorado Real Estate Network (CREN) (Colorado)'>Colorado Real Estate Network (CREN) (Colorado)</option>
+<option value='Columbia Greene Northern Dutchess MLS (CGNDMLS) (New York)'>Columbia Greene Northern Dutchess MLS (CGNDMLS) (New York)</option>
+<option value='Columbia MO MLS (CBORMLS) (Missouri)'>Columbia MO MLS (CBORMLS) (Missouri)</option>
+<option value='Columbus Georgia FTP MLS (COGALMLS) (Georgia)'>Columbus Georgia FTP MLS (COGALMLS) (Georgia)</option>
+<option value='Columbus MLS (CBRMLS) (Ohio)'>Columbus MLS (CBRMLS) (Ohio)</option>
+<option value='Commercial and Industrial Real Estate Brokers (CIREB) (New York)'>Commercial and Industrial Real Estate Brokers (CIREB) (New York)</option>
+<option value='Commercial Brokers Association (CBAMLS) (Washington)'>Commercial Brokers Association (CBAMLS) (Washington)</option>
+<option value='Commercial Brokers Association (CBAMLS) (Washington)'>Commercial Brokers Association (CBAMLS) (Washington)</option>
+<option value='Connecticut Statewide MLS (CTStatewide) (Connecticut)'>Connecticut Statewide MLS (CTStatewide) (Connecticut)</option>
+<option value='Consolidated MLS (CMLS) (Connecticut)'>Consolidated MLS (CMLS) (Connecticut)</option>
+<option value='Consolidated SC MLS (COLAMLS) (South Carolina)'>Consolidated SC MLS (COLAMLS) (South Carolina)</option>
+<option value='Cooperative Arkansas (CARMLS) (Arkansas)'>Cooperative Arkansas (CARMLS) (Arkansas)</option>
+<option value='Crystal Coast MLS (CCMLS) (North Carolina)'>Crystal Coast MLS (CCMLS) (North Carolina)</option>
+<option value='Cullman MLS (Cullman) (Alabama)'>Cullman MLS (Cullman) (Alabama)</option>
+<option value='Dalton MLS (DALTMLS) (Georgia)'>Dalton MLS (DALTMLS) (Georgia)</option>
+<option value='Dayton MLS (DTON) (Ohio)'>Dayton MLS (DTON) (Ohio)</option>
+<option value='Daytona Beach AOR MLS (DBAMLS) (Florida)'>Daytona Beach AOR MLS (DBAMLS) (Florida)</option>
+<option value='Decatur MLS (DARMLS) (Illinois)'>Decatur MLS (DARMLS) (Illinois)</option>
+<option value='Del Norte AOR MLS (DNMLS) (California)'>Del Norte AOR MLS (DNMLS) (California)</option>
+<option value='Des Moines MLS (DMMLS) (Iowa)'>Des Moines MLS (DMMLS) (Iowa)</option>
+<option value='Desert MLS (DTMLS) (California)'>Desert MLS (DTMLS) (California)</option>
+<option value='Door County MLS (DoorMLS) (Wisconsin)'>Door County MLS (DoorMLS) (Wisconsin)</option>
+<option value='Door County RETS (DoorMLS) (Wisconsin)'>Door County RETS (DoorMLS) (Wisconsin)</option>
+<option value='Dothan MLS (Dothan)'>Dothan MLS (Dothan)</option>
+<option value='Dubuque MLS (DUMLS) (Iowa)'>Dubuque MLS (DUMLS) (Iowa)</option>
+<option value='Duluth MLS (DAAR) (Minnesota)'>Duluth MLS (DAAR) (Minnesota)</option>
+<option value='East Bay Reg Data / MAX (MAX/EBRD) (California)'>East Bay Reg Data / MAX (MAX/EBRD) (California)</option>
+<option value='East Bay Reg Data / MAX (CCAOR) (California)'>East Bay Reg Data / MAX (CCAOR) (California)</option>
+<option value='East Bay Reg Data / MAX (BEAOR) (California)'>East Bay Reg Data / MAX (BEAOR) (California)</option>
+<option value='Egyptian MLS (EMLS) (Illinois)'>Egyptian MLS (EMLS) (Illinois)</option>
+<option value='El Paso MLS (EPMLS) (Texas)'>El Paso MLS (EPMLS) (Texas)</option>
+<option value='Elko County MLS (ECMLS)'>Elko County MLS (ECMLS)</option>
+<option value='Elmira Corning MLS (ECMLS) (New York)'>Elmira Corning MLS (ECMLS) (New York)</option>
+<option value='Emerald Coast MLS (ECARMLS) (Florida)'>Emerald Coast MLS (ECARMLS) (Florida)</option>
+<option value='Emporia MLS (EBRA) (Kansas)'>Emporia MLS (EBRA) (Kansas)</option>
+<option value='Enid County MLS (ECMLS)'>Enid County MLS (ECMLS)</option>
+<option value='Fairfield Iowa MLS (FIMLS) (Iowa)'>Fairfield Iowa MLS (FIMLS) (Iowa)</option>
+<option value='Fargo-Moorhead Association of REALTORS (FMARMLS) (North Dakota)'>Fargo-Moorhead Association of REALTORS (FMARMLS) (North Dakota)</option>
+<option value='Fayetteville Regional MLS (FAYMLS) (North Carolina)'>Fayetteville Regional MLS (FAYMLS) (North Carolina)</option>
+<option value='Firelands MLS (FIREMLS) (Ohio)'>Firelands MLS (FIREMLS) (Ohio)</option>
+<option value='First MLS (FMLS) (Georgia)'>First MLS (FMLS) (Georgia)</option>
+<option value='Five County MLS (FCMLS)'>Five County MLS (FCMLS)</option>
+<option value='Flagler County MLS RETS (FLGMLS) (Florida)'>Flagler County MLS RETS (FLGMLS) (Florida)</option>
+<option value='Florida Gulf Coast MLS (FAR) (FGCMLS) (Florida)'>Florida Gulf Coast MLS (FAR) (FGCMLS) (Florida)</option>
+<option value='Florida Keys MLS (FLKMLS) (Florida)'>Florida Keys MLS (FLKMLS) (Florida)</option>
+<option value='Fort Hood MLS (FHMLS) (Texas)'>Fort Hood MLS (FHMLS) (Texas)</option>
+<option value='Fort Lauderdale MLS (RAGFL) (Florida)'>Fort Lauderdale MLS (RAGFL) (Florida)</option>
+<option value='Fort MacMurray (FMMMLS) (Alberta)'>Fort MacMurray (FMMMLS) (Alberta)</option>
+<option value='Fort Smith MLS (FSMLS) (Arkansas)'>Fort Smith MLS (FSMLS) (Arkansas)</option>
+<option value='Four Rivers AOR FTP (CTXMLS) (Texas)'>Four Rivers AOR FTP (CTXMLS) (Texas)</option>
+<option value='Four Rivers AOR RETS (CTXMLS) (Texas)'>Four Rivers AOR RETS (CTXMLS) (Texas)</option>
+<option value='Franklin and Gulf Counties MLS (RAFSG) (Florida)'>Franklin and Gulf Counties MLS (RAFSG) (Florida)</option>
+<option value='Franklin BOR MLS (FBOR) (North Carolina)'>Franklin BOR MLS (FBOR) (North Carolina)</option>
+<option value='Fresno MLS (Fresno) (California)'>Fresno MLS (Fresno) (California)</option>
+<option value='Fulton County MLS (FCMLS) (New York)'>Fulton County MLS (FCMLS) (New York)</option>
+<option value='Gainesville-Alachua County MLS (GACMLS) (Florida)'>Gainesville-Alachua County MLS (GACMLS) (Florida)</option>
+<option value='Galveston MLS FTP (GTXMLS) (Texas)'>Galveston MLS FTP (GTXMLS) (Texas)</option>
+<option value='Galveston MLS RETS (GTXMLS) (Texas)'>Galveston MLS RETS (GTXMLS) (Texas)</option>
+<option value='Garden City MLS (GardenMLS) (Kansas)'>Garden City MLS (GardenMLS) (Kansas)</option>
+<option value='Garden State - Agent (GSMLS-A) (New Jersey)'>Garden State - Agent (GSMLS-A) (New Jersey)</option>
+<option value='Garden State - Broker (GSMLS-B) (New Jersey)'>Garden State - Broker (GSMLS-B) (New Jersey)</option>
+<option value='Georgia MLS (GAMLS) (Georgia)'>Georgia MLS (GAMLS) (Georgia)</option>
+<option value='Gillespie County MLS (GCMLS) (Texas)'>Gillespie County MLS (GCMLS) (Texas)</option>
+<option value='Golden Isles FTP (GIMLS) (Georgia)'>Golden Isles FTP (GIMLS) (Georgia)</option>
+<option value='Golden Isles RETS (GIMLS) (Georgia)'>Golden Isles RETS (GIMLS) (Georgia)</option>
+<option value='Grand County MLS (GRNCMLS) (Colorado)'>Grand County MLS (GRNCMLS) (Colorado)</option>
+<option value='Grand Forks Board of REALTORS (GFBMLS) (North Dakota)'>Grand Forks Board of REALTORS (GFBMLS) (North Dakota)</option>
+<option value='Grand Junction MLS (GJMLS) (Colorado)'>Grand Junction MLS (GJMLS) (Colorado)</option>
+<option value='Grants Pass Association of Realtors (GPAR) (Oregon)'>Grants Pass Association of Realtors (GPAR) (Oregon)</option>
+<option value='Great Smoky Mountains MLS (GSMMLS) (Tennessee)'>Great Smoky Mountains MLS (GSMMLS) (Tennessee)</option>
+<option value='Greater Alabama MLS (GABMLS) (Alabama)'>Greater Alabama MLS (GABMLS) (Alabama)</option>
+<option value='Greater Alexandria Area MLS (GAAMLS) (Minnesota)'>Greater Alexandria Area MLS (GAAMLS) (Minnesota)</option>
+<option value='Greater Augusta Virginia MLS (GAARMLS) (Virginia)'>Greater Augusta Virginia MLS (GAARMLS) (Virginia)</option>
+<option value='Greater Erie MLS (GEBOR) (Pennsylvania)'>Greater Erie MLS (GEBOR) (Pennsylvania)</option>
+<option value='Greater Fairbanks MLS (GFMLS) (Alaska)'>Greater Fairbanks MLS (GFMLS) (Alaska)</option>
+<option value='Greater Fort Polk (GFPAR) (Louisiana)'>Greater Fort Polk (GFPAR) (Louisiana)</option>
+<option value='Greater Greenville MLS (GGMLS) (South Carolina)'>Greater Greenville MLS (GGMLS) (South Carolina)</option>
+<option value='Greater Lansing (GLMLS) (Michigan)'>Greater Lansing (GLMLS) (Michigan)</option>
+<option value='Greater Las Vegas MLS (GLVAR) (Nevada)'>Greater Las Vegas MLS (GLVAR) (Nevada)</option>
+<option value='Greater McAllen MLS FTP (MAMLS) (Texas)'>Greater McAllen MLS FTP (MAMLS) (Texas)</option>
+<option value='Greater McAllen MLS RETS (GMAMLS) (Texas)'>Greater McAllen MLS RETS (GMAMLS) (Texas)</option>
+<option value='Greater Northwest Indiana MLS (GNIAR) (Indiana)'>Greater Northwest Indiana MLS (GNIAR) (Indiana)</option>
+<option value='Greater Northwoods MLS (GNMLS) (Wisconsin)'>Greater Northwoods MLS (GNMLS) (Wisconsin)</option>
+<option value='Greater Pee Dee MLS (PDMLS) (South Carolina)'>Greater Pee Dee MLS (PDMLS) (South Carolina)</option>
+<option value='Greater Portsmouth Area Board of Realtors MLS (GPABR) (Ohio)'>Greater Portsmouth Area Board of Realtors MLS (GPABR) (Ohio)</option>
+<option value='Greater Tyler MLS (GTARMLS) (Texas)'>Greater Tyler MLS (GTARMLS) (Texas)</option>
+<option value='Greater Utica-Rome MLS (GURMLS)'>Greater Utica-Rome MLS (GURMLS)</option>
+<option value='Greater Wilkes Barre MLS (WBAMLS) (Pennsylvania)'>Greater Wilkes Barre MLS (WBAMLS) (Pennsylvania)</option>
+<option value='Green Valley-Sahuarita (GRNVLYSAH) (Arizona)'>Green Valley-Sahuarita (GRNVLYSAH) (Arizona)</option>
+<option value='Greenbrier Valley MLS (GVMLS)'>Greenbrier Valley MLS (GVMLS)</option>
+<option value='Greenville Pitt MLS (GPMLS) (North Carolina)'>Greenville Pitt MLS (GPMLS) (North Carolina)</option>
+<option value='Greenwich MLS (GRWMLS) (Connecticut)'>Greenwich MLS (GRWMLS) (Connecticut)</option>
+<option value='Greenwood SC MLS (GWSCMLS) (South Carolina)'>Greenwood SC MLS (GWSCMLS) (South Carolina)</option>
+<option value='Gulf Coast Alabama MLS (GCAMLS) (Alabama)'>Gulf Coast Alabama MLS (GCAMLS) (Alabama)</option>
+<option value='Gulf South Real Estate Info Network (GSREIN) (Louisiana)'>Gulf South Real Estate Info Network (GSREIN) (Louisiana)</option>
+<option value='Gunnison Country MLS (GCMLS) (Colorado)'>Gunnison Country MLS (GCMLS) (Colorado)</option>
+<option value='Harrisonburg-Rockingham MLS (HRMLS) (Virginia)'>Harrisonburg-Rockingham MLS (HRMLS) (Virginia)</option>
+<option value='Hattiesburg MLS (HSMLS) (Mississippi)'>Hattiesburg MLS (HSMLS) (Mississippi)</option>
+<option value='Hawaii Central MLS (HiCentralMLS) (Hawaii)'>Hawaii Central MLS (HiCentralMLS) (Hawaii)</option>
+<option value='Hawaii Central MLS - Active Only (HiCentralActive) (Hawaii)'>Hawaii Central MLS - Active Only (HiCentralActive) (Hawaii)</option>
+<option value='Hawaii Info Service (HISMLS) (Hawaii)'>Hawaii Info Service (HISMLS) (Hawaii)</option>
+<option value='Hazleton MLS (HAZMLS) (Pennsylvania)'>Hazleton MLS (HAZMLS) (Pennsylvania)</option>
+<option value='Heart of Kentucky MLS (HKMLS) (Kentucky)'>Heart of Kentucky MLS (HKMLS) (Kentucky)</option>
+<option value='Heartland (Florida) MLS (HFMLS) (Florida)'>Heartland (Florida) MLS (HFMLS) (Florida)</option>
+<option value='Heartland (Kansas-Missouri) MLS (HMLS) (Missouri)'>Heartland (Kansas-Missouri) MLS (HMLS) (Missouri)</option>
+<option value='Heartlands Board of Realtors Ohio (HBOR) (Ohio)'>Heartlands Board of Realtors Ohio (HBOR) (Ohio)</option>
+<option value='Helena MLS (HMLS) (Montana)'>Helena MLS (HMLS) (Montana)</option>
+<option value='Henderson Audubon MLS (HAMLS) (Kentucky)'>Henderson Audubon MLS (HAMLS) (Kentucky)</option>
+<option value='Henderson County BOR RETS (HCBOR) (Texas)'>Henderson County BOR RETS (HCBOR) (Texas)</option>
+<option value='Hernando County MLS (HCMLS) (Florida)'>Hernando County MLS (HCMLS) (Florida)</option>
+<option value='High Country (HCMLS) (North Carolina)'>High Country (HCMLS) (North Carolina)</option>
+<option value='High Desert Association of REALTORS (HDAOR) (California)'>High Desert Association of REALTORS (HDAOR) (California)</option>
+<option value='Highland Lakes MLS (HLMLS) (Texas)'>Highland Lakes MLS (HLMLS) (Texas)</option>
+<option value='Highlands Cashiers MLS (HCMLS) (North Carolina)'>Highlands Cashiers MLS (HCMLS) (North Carolina)</option>
+<option value='Hilton Head Island MLS (HHIMLS) (South Carolina)'>Hilton Head Island MLS (HHIMLS) (South Carolina)</option>
+<option value='Hilton Head MLS Testing (HHIMLS) (South Carolina)'>Hilton Head MLS Testing (HHIMLS) (South Carolina)</option>
+<option value='Hinesville MLS RETS (HMLS) (Georgia)'>Hinesville MLS RETS (HMLS) (Georgia)</option>
+<option value='Hopkinsville, Christian & Todd County BOR FTP (HCTCBOR) (Kentucky)'>Hopkinsville, Christian & Todd County BOR FTP (HCTCBOR) (Kentucky)</option>
+<option value='Hopkinsville, Christian & Todd County BOR RETS (HCTCBOR) (Kentucky)'>Hopkinsville, Christian & Todd County BOR RETS (HCTCBOR) (Kentucky)</option>
+<option value='Houston MLS (HARMLS) (Texas)'>Houston MLS (HARMLS) (Texas)</option>
+<option value='Hudson County MLS (HCMLS) (New Jersey)'>Hudson County MLS (HCMLS) (New Jersey)</option>
+<option value='Hudson Gateway MLS (HGMLS) (New York)'>Hudson Gateway MLS (HGMLS) (New York)</option>
+<option value='Humboldt MLS (HBMLS) (California)'>Humboldt MLS (HBMLS) (California)</option>
+<option value='Huntington BOR MLS (RETS) (HUNTMLS) (West Virginia)'>Huntington BOR MLS (RETS) (HUNTMLS) (West Virginia)</option>
+<option value='Huntington MLS (FTP) (HUNTMLS) (West Virginia)'>Huntington MLS (FTP) (HUNTMLS) (West Virginia)</option>
+<option value='Hutchinson MLS (HBORMLS)'>Hutchinson MLS (HBORMLS)</option>
+<option value='Idaho Mountain Central MLS (IMCMLS) (Idaho)'>Idaho Mountain Central MLS (IMCMLS) (Idaho)</option>
+<option value='Imperial County AOR (ICAOR) (California)'>Imperial County AOR (ICAOR) (California)</option>
+<option value='Incline Village MLS (IVMLS) (Nevada)'>Incline Village MLS (IVMLS) (Nevada)</option>
+<option value='Indian River MLS (FAR) (IRMLS) (Florida)'>Indian River MLS (FAR) (IRMLS) (Florida)</option>
+<option value='Indiana Regional MLS (IRMLS) (Indiana)'>Indiana Regional MLS (IRMLS) (Indiana)</option>
+<option value='Information and Real Estate Services (IRES) (Colorado)'>Information and Real Estate Services (IRES) (Colorado)</option>
+<option value='Intermountain MLS (IMLS) (Idaho)'>Intermountain MLS (IMLS) (Idaho)</option>
+<option value='Iowa City Area MLS (ICAARMLS) (Iowa)'>Iowa City Area MLS (ICAARMLS) (Iowa)</option>
+<option value='Iron County MLS (ICBOR) (Utah)'>Iron County MLS (ICBOR) (Utah)</option>
+<option value='Itasca County MLS (ICMLS) (Minnesota)'>Itasca County MLS (ICMLS) (Minnesota)</option>
+<option value='Ithaca MLS RETS (ITMLS) (New York)'>Ithaca MLS RETS (ITMLS) (New York)</option>
+<option value='Jackson County Indiana (JCIMLS) (Indiana)'>Jackson County Indiana (JCIMLS) (Indiana)</option>
+<option value='Jackson MI MLS (JMIMLS) (Michigan)'>Jackson MI MLS (JMIMLS) (Michigan)</option>
+<option value='Jacksonville NC MLS (JBORMLS) (North Carolina)'>Jacksonville NC MLS (JBORMLS) (North Carolina)</option>
+<option value='Jefferson County MLS (JCMLS) (Indiana)'>Jefferson County MLS (JCMLS) (Indiana)</option>
+<option value='Jefferson-Lewis MLS (JLMLS) (New York)'>Jefferson-Lewis MLS (JLMLS) (New York)</option>
+<option value='Jersey Shore MLS (OCBR) (New Jersey)'>Jersey Shore MLS (OCBR) (New Jersey)</option>
+<option value='Jonesboro MLS (JMLS) (Arkansas)'>Jonesboro MLS (JMLS) (Arkansas)</option>
+<option value='Jupiter, Tequesta, Hobe Sound MLS (JTHSMLS) (Florida)'>Jupiter, Tequesta, Hobe Sound MLS (JTHSMLS) (Florida)</option>
+<option value='Kamloops & District Real Estate Association MLSÂ® (KADREA) (British Columbia)'>Kamloops & District Real Estate Association MLSÂ® (KADREA) (British Columbia)</option>
+<option value='Kanawha Valley MLS (KVBR) (West Virginia)'>Kanawha Valley MLS (KVBR) (West Virginia)</option>
+<option value='Kansas Property Ads MLS (KPAMLS) (Kansas)'>Kansas Property Ads MLS (KPAMLS) (Kansas)</option>
+<option value='Kerrville MLS (KVMLS) (Texas)'>Kerrville MLS (KVMLS) (Texas)</option>
+<option value='Key West MLS (KWMLS) (Florida)'>Key West MLS (KWMLS) (Florida)</option>
+<option value='Keystone Multi-List (Keystone) (Pennsylvania)'>Keystone Multi-List (Keystone) (Pennsylvania)</option>
+<option value='Klamath County MLS (KCMLS) (Oregon)'>Klamath County MLS (KCMLS) (Oregon)</option>
+<option value='Knox MLS (KOMLS) (Ohio)'>Knox MLS (KOMLS) (Ohio)</option>
+<option value='Knoxville MLS (KAARMLS) (Tennessee)'>Knoxville MLS (KAARMLS) (Tennessee)</option>
+<option value='Lafayette MLS (LRAOR)'>Lafayette MLS (LRAOR)</option>
+<option value='Lake Country GA MLS (LCGAMLS) (Georgia)'>Lake Country GA MLS (LCGAMLS) (Georgia)</option>
+<option value='Lake Martin MLS (LMMLS) (Alabama)'>Lake Martin MLS (LMMLS) (Alabama)</option>
+<option value='Lake of the Ozarks MLS (LOBR) (Missouri)'>Lake of the Ozarks MLS (LOBR) (Missouri)</option>
+<option value='Lakes Country Mn MLS (LCMLS) (Minnesota)'>Lakes Country Mn MLS (LCMLS) (Minnesota)</option>
+<option value='Lakeway Area MLS (LAAMLS) (Tennessee)'>Lakeway Area MLS (LAAMLS) (Tennessee)</option>
+<option value='Laramie MLS (LAMLS) (Wyoming)'>Laramie MLS (LAMLS) (Wyoming)</option>
+<option value='Laredo MLS (LBRMLS) (Texas)'>Laredo MLS (LBRMLS) (Texas)</option>
+<option value='Laredo MLS (LBRMLS) (Texas)'>Laredo MLS (LBRMLS) (Texas)</option>
+<option value='Las Cruces MLS (LCMLS) (New Mexico)'>Las Cruces MLS (LCMLS) (New Mexico)</option>
+<option value='Lassen MLS (LMLS) (California)'>Lassen MLS (LMLS) (California)</option>
+<option value='Latah County Board of Realtors (LCBR) (Idaho)'>Latah County Board of Realtors (LCBR) (Idaho)</option>
+<option value='Lawrence MLS (Lawrence) (Kansas)'>Lawrence MLS (Lawrence) (Kansas)</option>
+<option value='Lawton MLS (Lawton) (Oklahoma)'>Lawton MLS (Lawton) (Oklahoma)</option>
+<option value='Lee County MLS (LCMLS) (Alabama)'>Lee County MLS (LCMLS) (Alabama)</option>
+<option value='Lehigh Valley MLS (LVMLS) (Pennsylvania)'>Lehigh Valley MLS (LVMLS) (Pennsylvania)</option>
+<option value='Lenawee County MLS RETS (LCMLS) (Michigan)'>Lenawee County MLS RETS (LCMLS) (Michigan)</option>
+<option value='Lethbridge & District AOR (LDAOR) (Alberta)'>Lethbridge & District AOR (LDAOR) (Alberta)</option>
+<option value='Lewis Clark MLS (LCMLS) (Idaho)'>Lewis Clark MLS (LCMLS) (Idaho)</option>
+<option value='Lewis Clark MLS (LCMLS) (Idaho)'>Lewis Clark MLS (LCMLS) (Idaho)</option>
+<option value='Lexington Bluegrass MLS (LBAR) (Kentucky)'>Lexington Bluegrass MLS (LBAR) (Kentucky)</option>
+<option value='Lincoln County MLS Montana (LCMLS-M) (Montana)'>Lincoln County MLS Montana (LCMLS-M) (Montana)</option>
+<option value='Lincoln County MLS Oregon (LCMLS-O) (Oregon)'>Lincoln County MLS Oregon (LCMLS-O) (Oregon)</option>
+<option value='Livingston BOR (LBOR) (Illinois)'>Livingston BOR (LBOR) (Illinois)</option>
+<option value='Long Island MLS (MLSLI) (New York)'>Long Island MLS (MLSLI) (New York)</option>
+<option value='Longview Area MLS (LGVBOARD)'>Longview Area MLS (LGVBOARD)</option>
+<option value='Longview Area MLS (LGVBOARD) (Texas)'>Longview Area MLS (LGVBOARD) (Texas)</option>
+<option value='Los Cabos MLS (LCMLS) (Other)'>Los Cabos MLS (LCMLS) (Other)</option>
+<option value='Lubbock MLS (LARMLS) (Texas)'>Lubbock MLS (LARMLS) (Texas)</option>
+<option value='Lufkin BOR MLS (LBMLS) (Texas)'>Lufkin BOR MLS (LBMLS) (Texas)</option>
+<option value='Lynchburg MLS (LMLS) (Virginia)'>Lynchburg MLS (LMLS) (Virginia)</option>
+<option value='Madison County MLS (MCMLS) (Kentucky)'>Madison County MLS (MCMLS) (Kentucky)</option>
+<option value='Maine MLS (MREIS) (Maine)'>Maine MLS (MREIS) (Maine)</option>
+<option value='Mammoth Lakes MLS (MLBOR) (California)'>Mammoth Lakes MLS (MLBOR) (California)</option>
+<option value='Manhattan Kansas MLS (MARMLS) (Kansas)'>Manhattan Kansas MLS (MARMLS) (Kansas)</option>
+<option value='Manhattan New York MLS (MANMLS) (New York)'>Manhattan New York MLS (MANMLS) (New York)</option>
+<option value='Manhattan New York MLS (MANMLS) (New York)'>Manhattan New York MLS (MANMLS) (New York)</option>
+<option value='Mansfield BOR (MBOR) (Ohio)'>Mansfield BOR (MBOR) (Ohio)</option>
+<option value='Maquoketa MLS (MAQMLS) (Iowa)'>Maquoketa MLS (MAQMLS) (Iowa)</option>
+<option value='Marco Island Area MLS (MIAMLS) (Florida)'>Marco Island Area MLS (MIAMLS) (Florida)</option>
+<option value='Marinette MLS (MMLS) (Wisconsin)'>Marinette MLS (MMLS) (Wisconsin)</option>
+<option value='Marion BOR (MBOR) (Ohio)'>Marion BOR (MBOR) (Ohio)</option>
+<option value='Martin County MLS (FAR FTP) (MCMLS) (Florida)'>Martin County MLS (FAR FTP) (MCMLS) (Florida)</option>
+<option value='Martin County RETS (MCMLS) (Florida)'>Martin County RETS (MCMLS) (Florida)</option>
+<option value='Martinsville MLS FTP (MVMLS) (Virginia)'>Martinsville MLS FTP (MVMLS) (Virginia)</option>
+<option value='Martinsville MLS RETS (MVMLS) (Virginia)'>Martinsville MLS RETS (MVMLS) (Virginia)</option>
+<option value='Mason City MLS (MCMLS) (Iowa)'>Mason City MLS (MCMLS) (Iowa)</option>
+<option value='Massachusetts MLS Property Info Network (MLSPIN) (Massachusetts)'>Massachusetts MLS Property Info Network (MLSPIN) (Massachusetts)</option>
+<option value='Maui MLS (RAMAUI) (Hawaii)'>Maui MLS (RAMAUI) (Hawaii)</option>
+<option value='McPherson BOR MLS (MPBOR) (Kansas)'>McPherson BOR MLS (MPBOR) (Kansas)</option>
+<option value='Memphis MLS (MAARMLS) (Tennessee)'>Memphis MLS (MAARMLS) (Tennessee)</option>
+<option value='Mesquite Nevada MLS (Mesquite) (Nevada)'>Mesquite Nevada MLS (Mesquite) (Nevada)</option>
+<option value='Metro Milwaukee MLS (MetroMLS) (Wisconsin)'>Metro Milwaukee MLS (MetroMLS) (Wisconsin)</option>
+<option value='Metro Search MLS (Metro Search) (Kentucky)'>Metro Search MLS (Metro Search) (Kentucky)</option>
+<option value='MetroList - Sacramento (Metrolist) (California)'>MetroList - Sacramento (Metrolist) (California)</option>
+<option value='Metrolist Inc., DBA  ReColorado (MTOMLS) (Colorado)'>Metrolist Inc., DBA ReColorado (MTOMLS) (Colorado)</option>
+<option value='Metropolitan Indianapolis MLS (MIBOR) (Indiana)'>Metropolitan Indianapolis MLS (MIBOR) (Indiana)</option>
+<option value='Metropolitan Regional Info System (MRIS) (Maryland)'>Metropolitan Regional Info System (MRIS) (Maryland)</option>
+<option value='Michigan Regional Information Center (MichRIC) (Michigan)'>Michigan Regional Information Center (MichRIC) (Michigan)</option>
+<option value='Mid America Regional Info Systems (MARIS) (Missouri)'>Mid America Regional Info Systems (MARIS) (Missouri)</option>
+<option value='Mid Florida Regional MLS (MFRMLS) (Florida)'>Mid Florida Regional MLS (MFRMLS) (Florida)</option>
+<option value='Mid Georgia MLS (MGMLS) (Georgia)'>Mid Georgia MLS (MGMLS) (Georgia)</option>
+<option value='Mid Hudson MLS (MHMLS) (New York)'>Mid Hudson MLS (MHMLS) (New York)</option>
+<option value='Mid Ohio Valley MLS (MOVMLS) (West Virginia)'>Mid Ohio Valley MLS (MOVMLS) (West Virginia)</option>
+<option value='Mid Valley MLS (Mid Valley) (Illinois)'>Mid Valley MLS (Mid Valley) (Illinois)</option>
+<option value='Middlesex MLS (MSXMLS) (New Jersey)'>Middlesex MLS (MSXMLS) (New Jersey)</option>
+<option value='Midlands NE MLS (MidMLS) (Nebraska)'>Midlands NE MLS (MidMLS) (Nebraska)</option>
+<option value='Midwest Real Estate Data (MRED) (Illinois)'>Midwest Real Estate Data (MRED) (Illinois)</option>
+<option value='Mineral Area MLS (MNAR) (Missouri)'>Mineral Area MLS (MNAR) (Missouri)</option>
+<option value='Mini-Cassia MLS (MINIMLS) (Idaho)'>Mini-Cassia MLS (MINIMLS) (Idaho)</option>
+<option value='Minot (MMLS) (North Dakota)'>Minot (MMLS) (North Dakota)</option>
+<option value='MiRealSource (MiRealSource) (Michigan)'>MiRealSource (MiRealSource) (Michigan)</option>
+<option value='Mississippi Gulf Coast  MLS (MGCMLS) (Mississippi)'>Mississippi Gulf Coast MLS (MGCMLS) (Mississippi)</option>
+<option value='Missoula MLS (MMLS) (Montana)'>Missoula MLS (MMLS) (Montana)</option>
+<option value='MLS of Central Oregon (MLSCO) (Oregon)'>MLS of Central Oregon (MLSCO) (Oregon)</option>
+<option value='MLS of Naples (FAR) (Naples) (Florida)'>MLS of Naples (FAR) (Naples) (Florida)</option>
+<option value='MLSListings Inc. (MLSListings) (California)'>MLSListings Inc. (MLSListings) (California)</option>
+<option value='Monmouth Ocean MLS (MOMLS) (New Jersey)'>Monmouth Ocean MLS (MOMLS) (New Jersey)</option>
+<option value='Monroe County Alabama MLS (MCALMLS)'>Monroe County Alabama MLS (MCALMLS)</option>
+<option value='Monroe County Michigan MLS (MCAR) (Michigan)'>Monroe County Michigan MLS (MCAR) (Michigan)</option>
+<option value='Montgomery MLS (MAARMLS) (Alabama)'>Montgomery MLS (MAARMLS) (Alabama)</option>
+<option value='Moose Jaw MLS (Moose Jaw MLS) (Saskatchewan)'>Moose Jaw MLS (Moose Jaw MLS) (Saskatchewan)</option>
+<option value='Mountain Home MLS (MHMLS) (Arkansas)'>Mountain Home MLS (MHMLS) (Arkansas)</option>
+<option value='Mountain Lakes MLS (MLMLS) (North Carolina)'>Mountain Lakes MLS (MLMLS) (North Carolina)</option>
+<option value='Mt. Rushmore AOR (MRAOR) (South Dakota)'>Mt. Rushmore AOR (MRAOR) (South Dakota)</option>
+<option value='Natchez MLS (NATCHEZ) (Mississippi)'>Natchez MLS (NATCHEZ) (Mississippi)</option>
+<option value='Natchitoches MLS (NMLS)'>Natchitoches MLS (NMLS)</option>
+<option value='Navarre Area MLS (NAMLS) (Florida)'>Navarre Area MLS (NAMLS) (Florida)</option>
+<option value='Neuse River MLS (NRRAR) (North Carolina)'>Neuse River MLS (NRRAR) (North Carolina)</option>
+<option value='Nevada County MLS (NCMLS) (California)'>Nevada County MLS (NCMLS) (California)</option>
+<option value='New Jersey IDX (NJIDX) (New Jersey)'>New Jersey IDX (NJIDX) (New Jersey)</option>
+<option value='New Mexico Multi-Board MLS (NMMLS) (New Mexico)'>New Mexico Multi-Board MLS (NMMLS) (New Mexico)</option>
+<option value='New River Valley MLS (NRVAR) (Virginia)'>New River Valley MLS (NRVAR) (Virginia)</option>
+<option value='New Smyrna MLS (NSMY) (Florida)'>New Smyrna MLS (NSMY) (Florida)</option>
+<option value='New York State Alliance MLS (NYSAM) (New York)'>New York State Alliance MLS (NYSAM) (New York)</option>
+<option value='Norfolk NE MLS (NNEMLS) (Nebraska)'>Norfolk NE MLS (NNEMLS) (Nebraska)</option>
+<option value='North Alabama Multiple Listing Service (NALMLS) (Alabama)'>North Alabama Multiple Listing Service (NALMLS) (Alabama)</option>
+<option value='North Carolina Mountains MLS (WNCMLS) (North Carolina)'>North Carolina Mountains MLS (WNCMLS) (North Carolina)</option>
+<option value='North Central Mississippi (NCMMLS) (Mississippi)'>North Central Mississippi (NCMMLS) (Mississippi)</option>
+<option value='North Central Mississippi RETS (NCMMLS) (Mississippi)'>North Central Mississippi RETS (NCMMLS) (Mississippi)</option>
+<option value='North Central Penn BOR (NCPBOR) (Pennsylvania)'>North Central Penn BOR (NCPBOR) (Pennsylvania)</option>
+<option value='North Central Washington MLS (NCWMLS) (Washington)'>North Central Washington MLS (NCWMLS) (Washington)</option>
+<option value='North Florida MLS (NFLMLS) (Florida)'>North Florida MLS (NFLMLS) (Florida)</option>
+<option value='North Texas Real Estate Info Systems (NTREIS) (Texas)'>North Texas Real Estate Info Systems (NTREIS) (Texas)</option>
+<option value='Northeast Florida MLS (NEFMLS) (Florida)'>Northeast Florida MLS (NEFMLS) (Florida)</option>
+<option value='Northeast Georgia MLS (NEGMLS) (Georgia)'>Northeast Georgia MLS (NEGMLS) (Georgia)</option>
+<option value='Northeast Louisiana MLS (NELAR) (Louisiana)'>Northeast Louisiana MLS (NELAR) (Louisiana)</option>
+<option value='Northeast Mississippi MLS (NMMLS) (Mississippi)'>Northeast Mississippi MLS (NMMLS) (Mississippi)</option>
+<option value='Northeast Ohio Real Estate Exchange (NEOHREX) (Ohio)'>Northeast Ohio Real Estate Exchange (NEOHREX) (Ohio)</option>
+<option value='Northeast Oklahoma MLS (NORES) (Oklahoma)'>Northeast Oklahoma MLS (NORES) (Oklahoma)</option>
+<option value='Northeast South Dakota (NESD) (South Dakota)'>Northeast South Dakota (NESD) (South Dakota)</option>
+<option value='Northeast Washington MLS (NEWAR) (Washington)'>Northeast Washington MLS (NEWAR) (Washington)</option>
+<option value='Northeast Wisconsin MLS (RANW) (Wisconsin)'>Northeast Wisconsin MLS (RANW) (Wisconsin)</option>
+<option value='Northeastern Indiana (NEIMLS)'>Northeastern Indiana (NEIMLS)</option>
+<option value='Northern Arizona MLS (NAZMLS) (Arizona)'>Northern Arizona MLS (NAZMLS) (Arizona)</option>
+<option value='Northern Great Lakes REALTORS MLS (NGLRMLS) (Michigan)'>Northern Great Lakes REALTORS MLS (NGLRMLS) (Michigan)</option>
+<option value='Northern Kentucky MLS (NKAR) (Kentucky)'>Northern Kentucky MLS (NKAR) (Kentucky)</option>
+<option value='Northern Michigan MLS (NMMLS) (Michigan)'>Northern Michigan MLS (NMMLS) (Michigan)</option>
+<option value='Northern Neck MLS (NNMLS) (Virginia)'>Northern Neck MLS (NNMLS) (Virginia)</option>
+<option value='Northern Nevada Regional MLS (NNRMLS) (Nevada)'>Northern Nevada Regional MLS (NNRMLS) (Nevada)</option>
+<option value='Northern New England Real Estate Network (NNEREN) (New Hampshire)'>Northern New England Real Estate Network (NNEREN) (New Hampshire)</option>
+<option value='Northern Ohio Regional Info Syst (NORIS) (Ohio)'>Northern Ohio Regional Info Syst (NORIS) (Ohio)</option>
+<option value='Northstar MLS (Northstar) (Minnesota)'>Northstar MLS (Northstar) (Minnesota)</option>
+<option value='Northwest (NWMLS) (Washington)'>Northwest (NWMLS) (Washington)</option>
+<option value='Northwest Arkansas BOR MLS (NABORMLS) (Arkansas)'>Northwest Arkansas BOR MLS (NABORMLS) (Arkansas)</option>
+<option value='Northwest Louisiana MLS (NWLAR) (Louisiana)'>Northwest Louisiana MLS (NWLAR) (Louisiana)</option>
+<option value='Northwest Mississippi MLS (NWMAR) (Mississippi)'>Northwest Mississippi MLS (NWMAR) (Mississippi)</option>
+<option value='Northwest Montana MLS (NMAR) (Montana)'>Northwest Montana MLS (NMAR) (Montana)</option>
+<option value='Northwest Wisconsin MLS (RANWW) (Wisconsin)'>Northwest Wisconsin MLS (RANWW) (Wisconsin)</option>
+<option value='Nova Scotia MLS (NSMLS) (Nova Scotia)'>Nova Scotia MLS (NSMLS) (Nova Scotia)</option>
+<option value='NW Illinois (NWIL) (Illinois)'>NW Illinois (NWIL) (Illinois)</option>
+<option value='NY State MLS (NYSMLS) (New York)'>NY State MLS (NYSMLS) (New York)</option>
+<option value='Ocala-Marion MLS (Ocala) (Florida)'>Ocala-Marion MLS (Ocala) (Florida)</option>
+<option value='Odessa MLS (ODMLS) (Texas)'>Odessa MLS (ODMLS) (Texas)</option>
+<option value='Oklahoma City Metropolitan MLS (OKCMAR) (Oklahoma)'>Oklahoma City Metropolitan MLS (OKCMAR) (Oklahoma)</option>
+<option value='Old Kentucky Home MLS (OKHMLS)'>Old Kentucky Home MLS (OKHMLS)</option>
+<option value='Olympic MLS (OCMLS) (Washington)'>Olympic MLS (OCMLS) (Washington)</option>
+<option value='Omaha MLS (OMLS) (Nebraska)'>Omaha MLS (OMLS) (Nebraska)</option>
+<option value='Orange Belt MLS (OBMLS) (California)'>Orange Belt MLS (OBMLS) (California)</option>
+<option value='Otero County MLS (OCMLS)'>Otero County MLS (OCMLS)</option>
+<option value='Otsego-Delaware Board of Realtors (ODBOR) (New York)'>Otsego-Delaware Board of Realtors (ODBOR) (New York)</option>
+<option value='Outer Banks MLS (OBMLS) (North Carolina)'>Outer Banks MLS (OBMLS) (North Carolina)</option>
+<option value='Pacific Regional MLS (PACMLS) (Washington)'>Pacific Regional MLS (PACMLS) (Washington)</option>
+<option value='Palestine AOR FTP (PAOR)ption (Texas)'>Palestine AOR FTP (PAOR)ption (Texas)</option>
+<option value='Palm Beach Board of Realtors MLS (PBBORMLS) (Florida)'>Palm Beach Board of Realtors MLS (PBBORMLS) (Florida)</option>
+<option value='Pampa Board of Realtors (PBOR) (Texas)'>Pampa Board of Realtors (PBOR) (Texas)</option>
+<option value='Panama City MLS (PCMLS) (Florida)'>Panama City MLS (PCMLS) (Florida)</option>
+<option value='Park City MLS (PKCMLS) (Utah)'>Park City MLS (PKCMLS) (Utah)</option>
+<option value='Pearl River County Board of Realtors (PRCBR) (Mississippi)'>Pearl River County Board of Realtors (PRCBR) (Mississippi)</option>
+<option value='Pensacola MLS (PARMLS) (Florida)'>Pensacola MLS (PARMLS) (Florida)</option>
+<option value='Peoria MLS (PEMLS) (Illinois)'>Peoria MLS (PEMLS) (Illinois)</option>
+<option value='Permian Basin (PBMLS) (Texas)'>Permian Basin (PBMLS) (Texas)</option>
+<option value='Phenix City MLS (PCMLS) (Alabama)'>Phenix City MLS (PCMLS) (Alabama)</option>
+<option value='Piedmont Regional MLS (PRARMLS) (South Carolina)'>Piedmont Regional MLS (PRARMLS) (South Carolina)</option>
+<option value='Pike Wayne MLS (PWMLS) (Pennsylvania)'>Pike Wayne MLS (PWMLS) (Pennsylvania)</option>
+<option value='Pikes Peak MLS (PPAR) (Colorado)'>Pikes Peak MLS (PPAR) (Colorado)</option>
+<option value='Pinehurst - Southern Pines MLS (PSPMLS) (North Carolina)'>Pinehurst - Southern Pines MLS (PSPMLS) (North Carolina)</option>
+<option value='Pittsburg Board of Realtors (PBOR) (Kansas)'>Pittsburg Board of Realtors (PBOR) (Kansas)</option>
+<option value='Plumas MLS (Plumas) (California)'>Plumas MLS (Plumas) (California)</option>
+<option value='Pocatello MLS (PCTMLS) (Idaho)'>Pocatello MLS (PCTMLS) (Idaho)</option>
+<option value='Pocono Mountains (PMMLS) (Pennsylvania)'>Pocono Mountains (PMMLS) (Pennsylvania)</option>
+<option value='Port Neches Port Arthur Nederland MLS RETS (PNPANMLS) (Texas)'>Port Neches Port Arthur Nederland MLS RETS (PNPANMLS) (Texas)</option>
+<option value='Prescott MLS (PAARMLS) (Arizona)'>Prescott MLS (PAARMLS) (Arizona)</option>
+<option value='Pueblo MLS RETS (PARMLS) (Colorado)'>Pueblo MLS RETS (PARMLS) (Colorado)</option>
+<option value='Pulaski County MLS (PCBORMLS)'>Pulaski County MLS (PCBORMLS)</option>
+<option value='Quad City Commercial MLS (QCCMLS) (Iowa)'>Quad City Commercial MLS (QCCMLS) (Iowa)</option>
+<option value='Quad City Residential MLS (QCRAR) (Illinois)'>Quad City Residential MLS (QCRAR) (Illinois)</option>
+<option value='Quincy MLS (QMLS) (Illinois)'>Quincy MLS (QMLS) (Illinois)</option>
+<option value='Quincy MLS RETS (QMLS) (Illinois)'>Quincy MLS RETS (QMLS) (Illinois)</option>
+<option value='Range MLS (Range) (Minnesota)'>Range MLS (Range) (Minnesota)</option>
+<option value='Real Estate Board of New York (REBNY) (New York)'>Real Estate Board of New York (REBNY) (New York)</option>
+<option value='Real Estate Information Network (REIN) (Virginia)'>Real Estate Information Network (REIN) (Virginia)</option>
+<option value='RealComp (RealComp) (Michigan)'>RealComp (RealComp) (Michigan)</option>
+<option value='Realtors Association of Jamaica (RAJ) (Jamaica)'>Realtors Association of Jamaica (RAJ) (Jamaica)</option>
+<option value='REALTORSÂ® Association of Hamilton-Burlington (RAOHB) (Ontario)'>REALTORSÂ® Association of Hamilton-Burlington (RAOHB) (Ontario)</option>
+<option value='RealTracs MLS (RTMLS) (Tennessee)'>RealTracs MLS (RTMLS) (Tennessee)</option>
+<option value='Reelfoot Regional MLS (RRAR) (Tennessee)'>Reelfoot Regional MLS (RRAR) (Tennessee)</option>
+<option value='Regina MLS (Regina) (Saskatchewan)'>Regina MLS (Regina) (Saskatchewan)</option>
+<option value='Regional Multiple Listing Service (RMLS) (Oregon)'>Regional Multiple Listing Service (RMLS) (Oregon)</option>
+<option value='Rhode Island MLS (RIMLS) (Rhode Island)'>Rhode Island MLS (RIMLS) (Rhode Island)</option>
+<option value='Richmond County (RCMLS)'>Richmond County (RCMLS)</option>
+<option value='Ridgecrest AOR (RAOR) (California)'>Ridgecrest AOR (RAOR) (California)</option>
+<option value='River Counties MLS (RCMLS) (Tennessee)'>River Counties MLS (RCMLS) (Tennessee)</option>
+<option value='Roanoke Valley MLS (RVAR) (Virginia)'>Roanoke Valley MLS (RVAR) (Virginia)</option>
+<option value='Rockford Area AOR Commercial (RAAORC) (Illinois)'>Rockford Area AOR Commercial (RAAORC) (Illinois)</option>
+<option value='Rockford MLS (RAARMLS) (Illinois)'>Rockford MLS (RAARMLS) (Illinois)</option>
+<option value='Rockport MLS (RPMLS) (Texas)'>Rockport MLS (RPMLS) (Texas)</option>
+<option value='Rockport MLS RETS (RPMLS) (Texas)'>Rockport MLS RETS (RPMLS) (Texas)</option>
+<option value='Rocky Mount Area MLS (RMAMLS)'>Rocky Mount Area MLS (RMAMLS)</option>
+<option value='Roswell MLS (RWMLS)'>Roswell MLS (RWMLS)</option>
+<option value='Ruidoso-Lincoln County FTP (RLCMLS) (New Mexico)'>Ruidoso-Lincoln County FTP (RLCMLS) (New Mexico)</option>
+<option value='Ruidoso-Lincoln County RETS (RLCMLS) (New Mexico)'>Ruidoso-Lincoln County RETS (RLCMLS) (New Mexico)</option>
+<option value='Rutherford County MLS (RuthMLS) (North Carolina)'>Rutherford County MLS (RuthMLS) (North Carolina)</option>
+<option value='Saginaw MLS (SMLS)'>Saginaw MLS (SMLS)</option>
+<option value='Salina Kansas MLS (SKMLS) (Kansas)'>Salina Kansas MLS (SKMLS) (Kansas)</option>
+<option value='Salmon River MLS (Salmon)'>Salmon River MLS (Salmon)</option>
+<option value='San Antonio MLS (SABOR) (Texas)'>San Antonio MLS (SABOR) (Texas)</option>
+<option value='San Diego Regional MLS (Sandicor) (California)'>San Diego Regional MLS (Sandicor) (California)</option>
+<option value='San Francisco MLS (SFARMLS) (California)'>San Francisco MLS (SFARMLS) (California)</option>
+<option value='San Juan County MLS (SJCMLS) (New Mexico)'>San Juan County MLS (SJCMLS) (New Mexico)</option>
+<option value='Sanibel and Captiva Island MLS (SANCAPMLS) (Florida)'>Sanibel and Captiva Island MLS (SANCAPMLS) (Florida)</option>
+<option value='Santa Barbara MLS (SBAOR) (California)'>Santa Barbara MLS (SBAOR) (California)</option>
+<option value='Santa Cruz County MLS (SCCAZ)'>Santa Cruz County MLS (SCCAZ)</option>
+<option value='Santa Fe MLS (SFARMLS) (New Mexico)'>Santa Fe MLS (SFARMLS) (New Mexico)</option>
+<option value='Saskatoon Region Association of Realtors (SRAOR) (Saskatchewan)'>Saskatoon Region Association of Realtors (SRAOR) (Saskatchewan)</option>
+<option value='Sauk Valley MLS (SVMLS) (Illinois)'>Sauk Valley MLS (SVMLS) (Illinois)</option>
+<option value='Sauk Valley MLS (SVMLS) (Illinois)'>Sauk Valley MLS (SVMLS) (Illinois)</option>
+<option value='Savannah Multi List (SMLMLS) (Georgia)'>Savannah Multi List (SMLMLS) (Georgia)</option>
+<option value='Scotts Bluff County MLS (SBCMLS) (Nebraska)'>Scotts Bluff County MLS (SBCMLS) (Nebraska)</option>
+<option value='Scranton MLS (SMLS) (Pennsylvania)'>Scranton MLS (SMLS) (Pennsylvania)</option>
+<option value='Sedalia Warsaw MLS (SEDWAR) (Missouri)'>Sedalia Warsaw MLS (SEDWAR) (Missouri)</option>
+<option value='Sedona Verde MLS (SVVAR) (Arizona)'>Sedona Verde MLS (SVVAR) (Arizona)</option>
+<option value='Selkirk MLS (SLKMLS) (Idaho)'>Selkirk MLS (SLKMLS) (Idaho)</option>
+<option value='Selkirk RETS (SLKMLS) (Idaho)'>Selkirk RETS (SLKMLS) (Idaho)</option>
+<option value='Shasta MLS (Shasta) (California)'>Shasta MLS (Shasta) (California)</option>
+<option value='Sheridan MLS (SRMLS) (Wyoming)'>Sheridan MLS (SRMLS) (Wyoming)</option>
+<option value='Shiawassee MLS (SMLS) (Michigan)'>Shiawassee MLS (SMLS) (Michigan)</option>
+<option value='Shoals MLS (Shoals) (Alabama)'>Shoals MLS (Shoals) (Alabama)</option>
+<option value='Silver City Regional MLS (SCRMLS) (New Mexico)'>Silver City Regional MLS (SCRMLS) (New Mexico)</option>
+<option value='Sioux Empire MLS (RASE) (South Dakota)'>Sioux Empire MLS (RASE) (South Dakota)</option>
+<option value='Siskiyou MLS (SMLS)'>Siskiyou MLS (SMLS)</option>
+<option value='Snake River MLS (SRMLS) (Idaho)'>Snake River MLS (SRMLS) (Idaho)</option>
+<option value='South Broward MLS (SouthBroward) (Florida)'>South Broward MLS (SouthBroward) (Florida)</option>
+<option value='South Broward RETS (SouthBroward) (Florida)'>South Broward RETS (SouthBroward) (Florida)</option>
+<option value='South Central Indiana MLS (SCILEX) (Indiana)'>South Central Indiana MLS (SCILEX) (Indiana)</option>
+<option value='South Central Kansas MLS (SCKMLS) (Kansas)'>South Central Kansas MLS (SCKMLS) (Kansas)</option>
+<option value='South Central Wisconsin MLS (SCWMLS) (Wisconsin)'>South Central Wisconsin MLS (SCWMLS) (Wisconsin)</option>
+<option value='South Jersey Shore Regional MLS (SJSRMLS) (New Jersey)'>South Jersey Shore Regional MLS (SJSRMLS) (New Jersey)</option>
+<option value='South Tahoe MLS (STAR) (California)'>South Tahoe MLS (STAR) (California)</option>
+<option value='Southeast Alaska MLS (SEAKMLS) (Alaska)'>Southeast Alaska MLS (SEAKMLS) (Alaska)</option>
+<option value='Southeast Arizona MLS (SEAZMLS) (Arizona)'>Southeast Arizona MLS (SEAZMLS) (Arizona)</option>
+<option value='Southeast Florida MLS (FAR FTP) (SEFL) (Florida)'>Southeast Florida MLS (FAR FTP) (SEFL) (Florida)</option>
+<option value='Southeast Florida MLS RETS (SEFL) (Florida)'>Southeast Florida MLS RETS (SEFL) (Florida)</option>
+<option value='Southeast Kansas MLS (SKSMLS) (Kansas)'>Southeast Kansas MLS (SKSMLS) (Kansas)</option>
+<option value='Southeast Minnesota MLS (SEMAR) (Minnesota)'>Southeast Minnesota MLS (SEMAR) (Minnesota)</option>
+<option value='Southeastern Indiana MLS (SEIMLS) (Indiana)'>Southeastern Indiana MLS (SEIMLS) (Indiana)</option>
+<option value='Southeastern Oklahoma (SEOKMLS) (Oklahoma)'>Southeastern Oklahoma (SEOKMLS) (Oklahoma)</option>
+<option value='Southern Indiana MLS (SIMLS) (Indiana)'>Southern Indiana MLS (SIMLS) (Indiana)</option>
+<option value='Southern Kentucky MLS (SOKYMLS) (Kentucky)'>Southern Kentucky MLS (SOKYMLS) (Kentucky)</option>
+<option value='Southern Minnesota MLS (SMMLS) (Minnesota)'>Southern Minnesota MLS (SMMLS) (Minnesota)</option>
+<option value='Southern Oklahoma MLS (SOKMLS) (Oklahoma)'>Southern Oklahoma MLS (SOKMLS) (Oklahoma)</option>
+<option value='Southern Oregon MLS (SOMLS) (Oregon)'>Southern Oregon MLS (SOMLS) (Oregon)</option>
+<option value='SouthWest Florida Bonita Springs-Estero MLS (SWFLBSE) (Florida)'>SouthWest Florida Bonita Springs-Estero MLS (SWFLBSE) (Florida)</option>
+<option value='SouthWest Florida Cape Coral MLS (SWFLCC) (Florida)'>SouthWest Florida Cape Coral MLS (SWFLCC) (Florida)</option>
+<option value='SouthWest Florida Gulf Coast MLS (SWFLGC) (Florida)'>SouthWest Florida Gulf Coast MLS (SWFLGC) (Florida)</option>
+<option value='SouthWest Florida Naples MLS (SWFLN) (Florida)'>SouthWest Florida Naples MLS (SWFLN) (Florida)</option>
+<option value='Southwest Iowa MLS (SWIMLS) (Iowa)'>Southwest Iowa MLS (SWIMLS) (Iowa)</option>
+<option value='Southwest Kansas BOR (SWKSBOR) (Kansas)'>Southwest Kansas BOR (SWKSBOR) (Kansas)</option>
+<option value='Southwest Louisiana MLS (SWLAMLS) (Louisiana)'>Southwest Louisiana MLS (SWLAMLS) (Louisiana)</option>
+<option value='Southwest MLS (SWMLS) (New Mexico)'>Southwest MLS (SWMLS) (New Mexico)</option>
+<option value='Southwest Montana MLS (SWMMLS) (Montana)'>Southwest Montana MLS (SWMMLS) (Montana)</option>
+<option value='Southwest Virginia (SVMLS) (Virginia)'>Southwest Virginia (SVMLS) (Virginia)</option>
+<option value='Southwestern Illinois Regional MLS (SIRMLS) (Illinois)'>Southwestern Illinois Regional MLS (SIRMLS) (Illinois)</option>
+<option value='Spartanburg MLS (SPTBGMLS) (South Carolina)'>Spartanburg MLS (SPTBGMLS) (South Carolina)</option>
+<option value='Spirit Lake MLS (SLMLS) (Iowa)'>Spirit Lake MLS (SLMLS) (Iowa)</option>
+<option value='Spokane MLS (SARMLS) (Washington)'>Spokane MLS (SARMLS) (Washington)</option>
+<option value='Springfield Multi-List (SMLMLS) (Missouri)'>Springfield Multi-List (SMLMLS) (Missouri)</option>
+<option value='St Joseph MLS (STJMLS) (Missouri)'>St Joseph MLS (STJMLS) (Missouri)</option>
+<option value='St. Augustine/St. Johns MLS (SASJ) (Florida)'>St. Augustine/St. Johns MLS (SASJ) (Florida)</option>
+<option value='Staten Island MLS (SIBOR) (New York)'>Staten Island MLS (SIBOR) (New York)</option>
+<option value='Steamboat Springs MLS (SSBRMLS) (Colorado)'>Steamboat Springs MLS (SSBRMLS) (Colorado)</option>
+<option value='Stillwater MLS (STW) (Oklahoma)'>Stillwater MLS (STW) (Oklahoma)</option>
+<option value='Stillwater MLS (STW) (Oklahoma)'>Stillwater MLS (STW) (Oklahoma)</option>
+<option value='Sullivan County MLS (SCMLS) (New York)'>Sullivan County MLS (SCMLS) (New York)</option>
+<option value='Summit County MLS (SARMLS) (Colorado)'>Summit County MLS (SARMLS) (Colorado)</option>
+<option value='Sumter MLS (SMLS) (South Carolina)'>Sumter MLS (SMLS) (South Carolina)</option>
+<option value='Sun Valley MLS (SVBR) (Idaho)'>Sun Valley MLS (SVBR) (Idaho)</option>
+<option value='Superior MLS (Superior) (Wisconsin)'>Superior MLS (Superior) (Wisconsin)</option>
+<option value='Sussex County Delaware MLS (DELMLS) (Delaware)'>Sussex County Delaware MLS (DELMLS) (Delaware)</option>
+<option value='Sutter Yuba MLS (SYMLS) (California)'>Sutter Yuba MLS (SYMLS) (California)</option>
+<option value='Tahoe Sierra MLS (TSMLS) (California)'>Tahoe Sierra MLS (TSMLS) (California)</option>
+<option value='Tallahassee MLS (TBRMLS) (Florida)'>Tallahassee MLS (TBRMLS) (Florida)</option>
+<option value='Telluride MLS (TRIDEMLS) (Colorado)'>Telluride MLS (TRIDEMLS) (Colorado)</option>
+<option value='Temple Belton MLS (TBBOR) (Texas)'>Temple Belton MLS (TBBOR) (Texas)</option>
+<option value='Tennessee Virginia Regional MLS (TVRMLS) (Tennessee)'>Tennessee Virginia Regional MLS (TVRMLS) (Tennessee)</option>
+<option value='Terre Haute Area Association of Realtors (THAAR) (Indiana)'>Terre Haute Area Association of Realtors (THAAR) (Indiana)</option>
+<option value='Teton MLS (Teton) (Wyoming)'>Teton MLS (Teton) (Wyoming)</option>
+<option value='Texarkana MLS (TMLS) (Texas)'>Texarkana MLS (TMLS) (Texas)</option>
+<option value='Texas MLS (TEXMLS) (Texas)'>Texas MLS (TEXMLS) (Texas)</option>
+<option value='Texoma MLS (TXMLS) (Oklahoma)'>Texoma MLS (TXMLS) (Oklahoma)</option>
+<option value='Thomasville MLS (TMLS) (Georgia)'>Thomasville MLS (TMLS) (Georgia)</option>
+<option value='Three Rivers MLS (TRSMLS) (North Carolina)'>Three Rivers MLS (TRSMLS) (North Carolina)</option>
+<option value='Three Rivers MO MLS (TRBR) (Missouri)'>Three Rivers MO MLS (TRBR) (Missouri)</option>
+<option value='Tillamook County Board MLS (TCBMLS) (Oregon)'>Tillamook County Board MLS (TCBMLS) (Oregon)</option>
+<option value='Topeka MLS (TAARMLS) (Kansas)'>Topeka MLS (TAARMLS) (Kansas)</option>
+<option value='Topsail Island MLS FTP (TSIMLS) (North Carolina)'>Topsail Island MLS FTP (TSIMLS) (North Carolina)</option>
+<option value='Topsail Island MLS RETS (TSIMLS) (North Carolina)'>Topsail Island MLS RETS (TSIMLS) (North Carolina)</option>
+<option value='Toronto Real Estate Board (TREB) (Ontario)'>Toronto Real Estate Board (TREB) (Ontario)</option>
+<option value='Trend MLS (Trend) (Pennsylvania)'>Trend MLS (Trend) (Pennsylvania)</option>
+<option value='Tri State MLS (TSMLS) (Ohio)'>Tri State MLS (TSMLS) (Ohio)</option>
+<option value='Triad MLS (Triad) (North Carolina)'>Triad MLS (Triad) (North Carolina)</option>
+<option value='Triangle MLS (TMLS) (North Carolina)'>Triangle MLS (TMLS) (North Carolina)</option>
+<option value='Tucson MLS (TARMLS) (Arizona)'>Tucson MLS (TARMLS) (Arizona)</option>
+<option value='Tulare County MLS (TCMLS) (California)'>Tulare County MLS (TCMLS) (California)</option>
+<option value='Tuolumne MLS (TCAR) (California)'>Tuolumne MLS (TCAR) (California)</option>
+<option value='Ulster County MLS (ULSTER) (New York)'>Ulster County MLS (ULSTER) (New York)</option>
+<option value='Upper Cumberland MLS (UCMLS) (Tennessee)'>Upper Cumberland MLS (UCMLS) (Tennessee)</option>
+<option value='Upper Peninsula (UPMLS) (Michigan)'>Upper Peninsula (UPMLS) (Michigan)</option>
+<option value='US Virgin Islands MLS (USVIMLS) (Vi)'>US Virgin Islands MLS (USVIMLS) (Vi)</option>
+<option value='Vail Multi List (VBRMLS) (Colorado)'>Vail Multi List (VBRMLS) (Colorado)</option>
+<option value='Valdosta-South Georgia MLS (VSGMLS)'>Valdosta-South Georgia MLS (VSGMLS)</option>
+<option value='Vancouver Island (VIREB) (British Columbia)'>Vancouver Island (VIREB) (British Columbia)</option>
+<option value='Ventura County Regional Data Share (VCRDS) (California)'>Ventura County Regional Data Share (VCRDS) (California)</option>
+<option value='Victoria MLS (VMLS)'>Victoria MLS (VMLS)</option>
+<option value='Victoria Real Estate Board (VREB) (British Columbia)'>Victoria Real Estate Board (VREB) (British Columbia)</option>
+<option value='Waco MLS (WACOMLS) (Texas)'>Waco MLS (WACOMLS) (Texas)</option>
+<option value='Walker County Area Board of Realtors (WCBOR) (Alabama)'>Walker County Area Board of Realtors (WCBOR) (Alabama)</option>
+<option value='Walla Walla MLS (WWMLS) (Washington)'>Walla Walla MLS (WWMLS) (Washington)</option>
+<option value='Warren County MLS (WCMLS)'>Warren County MLS (WCMLS)</option>
+<option value='Warren County MLS (WCMLS) (New York)'>Warren County MLS (WCMLS) (New York)</option>
+<option value='Wasatch Front Regional MLS (WFRMLS) (Utah)'>Wasatch Front Regional MLS (WFRMLS) (Utah)</option>
+<option value='Washington County MLS (WCMLS) (Utah)'>Washington County MLS (WCMLS) (Utah)</option>
+<option value='Water Wonderland MLS (WWMLS) (Michigan)'>Water Wonderland MLS (WWMLS) (Michigan)</option>
+<option value='Waterloo Cedar Falls (WCFBOR)'>Waterloo Cedar Falls (WCFBOR)</option>
+<option value='West Alabama MLS (WAMLS) (Alabama)'>West Alabama MLS (WAMLS) (Alabama)</option>
+<option value='West Central Minnesota MLS (WCMMLS) (Minnesota)'>West Central Minnesota MLS (WCMMLS) (Minnesota)</option>
+<option value='West Central Ohio MLS (WCOMLS) (Ohio)'>West Central Ohio MLS (WCOMLS) (Ohio)</option>
+<option value='West Penn MLS (WPMLS) (Pennsylvania)'>West Penn MLS (WPMLS) (Pennsylvania)</option>
+<option value='Western (Ohio) Regional Information Syst (WRIST) (Ohio)'>Western (Ohio) Regional Information Syst (WRIST) (Ohio)</option>
+<option value='Western Arizona Realtor Data Exchange (WARDEX) (Arizona)'>Western Arizona Realtor Data Exchange (WARDEX) (Arizona)</option>
+<option value='Western Kentucky Regional MLS (WKRMLS)'>Western Kentucky Regional MLS (WKRMLS)</option>
+<option value='Western Upstate MLS (UMLS) (South Carolina)'>Western Upstate MLS (UMLS) (South Carolina)</option>
+<option value='Wheeling MLS (WBOR) (West Virginia)'>Wheeling MLS (WBOR) (West Virginia)</option>
+<option value='White Mountain MLS (WMLS) (Arizona)'>White Mountain MLS (WMLS) (Arizona)</option>
+<option value='Wichita Falls MLS (WFMLS) (Texas)'>Wichita Falls MLS (WFMLS) (Texas)</option>
+<option value='Willamette Valley MLS (WVMLS) (Oregon)'>Willamette Valley MLS (WVMLS) (Oregon)</option>
+<option value='Williamsburg MLS (WAARMLS) (Virginia)'>Williamsburg MLS (WAARMLS) (Virginia)</option>
+<option value='Wilmington MLS (WRARMLS) (North Carolina)'>Wilmington MLS (WRARMLS) (North Carolina)</option>
+<option value='Wilson MLS (Wilson)'>Wilson MLS (Wilson)</option>
+<option value='Wiregrass MLS (WMLS) (Alabama)'>Wiregrass MLS (WMLS) (Alabama)</option>
+<option value='Wisconsin Real Estate Exchange (WIREX) (Wisconsin)'>Wisconsin Real Estate Exchange (WIREX) (Wisconsin)</option>
+<option value='Wyoming MLS (WYOMLS) (Wyoming)'>Wyoming MLS (WYOMLS) (Wyoming)</option>
+<option value='Yakima AOR MLS (YAMLS) (Washington)'>Yakima AOR MLS (YAMLS) (Washington)</option>
+<option value='York & Adams Counties MLS (RAYAC) (Pennsylvania)'>York & Adams Counties MLS (RAYAC) (Pennsylvania)</option>
+</select>
+</div>
+</div>
+<div class="panel-footer">4 of 9</div>
+</div>
+</div>
+
+<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+<div class="panel panel-default">
+<div class="panel-heading text-center">
+<h3>You Can Find Me Online At...</h3>
+<p>We'd like to know what social media platforms you use and would like to include on the site.</p>
+<p>You don't have to include any, or if you don't have this information now, it can always be added in the future.</p>
+</div>
+<div class="panel-body">
+<div class="form-group">
+<label for="facebookURL">Facebook URL</label>
+<input type="url" class="form-control" id="" name="Facebook" placeholder="Facebook URL">
+</div>
+<div class="form-group">
+<label for="Twitter URL">Twitter URL</label>
+<input type="url" class="form-control" id="" name="Twitter" placeholder="Twitter URL">
+</div>
+<div class="form-group">
+<label for="Linkedin URL">Linkedin URL</label>
+<input type="url" class="form-control" id="" name="LinkedIn" placeholder="Linkedin URL">
+</div>
+<div class="form-group">
+<label for="Google+ URL">Google+ URL</label>
+<input type="url" class="form-control" id="" name="Google+" placeholder="Google+ URL">
+</div>
+<div class="form-group">
+<label for="YouTube URL">YouTube URL</label>
+<input type="url" class="form-control" id="" name="YouTube" placeholder="YouTube URL">
+</div>
+<div class="form-group">
+<label for="Pinterest URL">Pinterest URL</label>
+<input type="url" class="form-control" id="" name="Pinterest" placeholder="Pinterest URL">
+</div>
+<div class="form-group">
+<label for="Instagram URL">Instagram URL</label>
+<input type="url" class="form-control" id="" name="Instagram" placeholder="Instagram URL">
+</div>
+<div class="form-group">
+<label for="Realtor Dot Com">Realtor.com URL</label>
+<input type="url" class="form-control" id="" name="Realtor.com" placeholder="Realtor.com URL">
+</div>
+<div class="form-group">
+<label for="Trulia">Trulia URL</label>
+<input type="url" class="form-control" id="" name="Trulia" placeholder="Trulia URL">
+</div>
+<div class="form-group">
+<label for="Zillow">Zillow URL</label>
+<input type="url" class="form-control" id="" name="Zillow" placeholder="Zillow URL">
+</div>
+</div>
+<div class="panel-footer">5 of 9</div>
+</div>
+</div>
+
+<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+<div class="panel panel-default">
+<div class="panel-heading text-center">
+<h3>Top Areas in Your Market</h3>
+<p>Our websites include a space to showcase the top areas in your market. Please let us how many areas to include as well as what those areas should be.</p>
+</div>
+<div class="panel-body">
+<div class="form-group">
+ <label for="sel1">Number of Areas to Feature</label>
+ <select ng-model="myDropDown" class="form-control">
+   <option value="four">4</option>
+   <option value="five">5</option>
+   <option value="six">6</option>
+   <option value="eight">8</option>
+   <option value="ten">10</option>
+   <option value="twelve">12</option>
+ </select>
+</div>
+<div class="form-group" ng-show="myDropDown=='four' || myDropDown=='five' || myDropDown=='six' || myDropDown=='eight' || myDropDown=='ten' || myDropDown=='twelve'">
+<label for="area1">Area 1 Name</label>
+<input type="url" class="form-control" id="" name="Area 1" placeholder="Area 1">
+</div>
+<div class="form-group" ng-show="myDropDown=='four' || myDropDown=='five' || myDropDown=='six' || myDropDown=='eight' || myDropDown=='ten' || myDropDown=='twelve'">
+<label for="area2">Area 2 Name</label>
+<input type="url" class="form-control" id="" name="Area 2" placeholder="Area 2">
+</div>
+<div class="form-group" ng-show="myDropDown=='four' || myDropDown=='five' || myDropDown=='six' || myDropDown=='eight' || myDropDown=='ten' || myDropDown=='twelve'">
+<label for="area3">Area 3 Name</label>
+<input type="url" class="form-control" id="" name="Area 3" placeholder="Area 3">
+</div>
+<div class="form-group" ng-show="myDropDown=='four' || myDropDown=='five' || myDropDown=='six' || myDropDown=='eight' || myDropDown=='ten' || myDropDown=='twelve'">
+<label for="area4">Area 4 Name</label>
+<input type="url" class="form-control" id="" name="Area 4" placeholder="Area 4">
+</div>
+<div class="form-group" ng-show="myDropDown=='five' || myDropDown=='six' || myDropDown=='eight' || myDropDown=='ten' || myDropDown=='twelve'">
+<label for="area5">Area 5 Name</label>
+<input type="url" class="form-control" id="" name="Area 5" placeholder="Area 5">
+</div>
+<div class="form-group" ng-show="myDropDown=='six' || myDropDown=='eight' || myDropDown=='ten' || myDropDown=='twelve'">
+<label for="area6">Area 6 Name</label>
+<input type="url" class="form-control" id="" name="Area 6" placeholder="Area 6">
+</div>
+<div class="form-group" ng-show="myDropDown=='eight' || myDropDown=='ten' || myDropDown=='twelve'">
+<label for="area7">Area 7 Name</label>
+<input type="url" class="form-control" id="" name="Area 7" placeholder="Area 7">
+</div>
+<div class="form-group" ng-show="myDropDown=='eight' || myDropDown=='ten' || myDropDown=='twelve'">
+<label for="area8">Area 8 Name</label>
+<input type="url" class="form-control" id="" name="Area 8" placeholder="Area 8">
+</div>
+<div class="form-group" ng-show="myDropDown=='ten' || myDropDown=='twelve'">
+<label for="area9">Area 9 Name</label>
+<input type="url" class="form-control" id="" name="Area 9" placeholder="Area 9">
+</div>
+<div class="form-group" ng-show="myDropDown=='ten' || myDropDown=='twelve'">
+<label for="area10">Area 10 Name</label>
+<input type="url" class="form-control" id="" name="Area 10" placeholder="Area 10">
+</div>
+<div class="form-group" ng-show="myDropDown=='twelve'">
+<label for="area11">Area 11 Name</label>
+<input type="url" class="form-control" id="" name="Area 11" placeholder="Area 11">
+</div>
+<div class="form-group" ng-show="myDropDown=='twelve'">
+<label for="area12">Area 12 Name</label>
+<input type="url" class="form-control" id="" name="Area 12" placeholder="Area 12">
+</div>
+</div>
+<div class="panel-footer">6 of 9</div>
+</div>
+</div>
+
+<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+<div class="panel panel-default">
+<div class="panel-heading text-center">
+<h3>Call To Action</h3>
+<p>Our websites can include 3 or 4 buttons that direct user to actionable pages. Feel free to pick 3 or 4 four of the options below.</p>
+</div>
+<div class="panel-body">
+<div class="form-group row">
+   <div class="col-xs-12 col-sm-6">
+<label value="blog">
+<input class="maxFour" value="blog" type="checkbox" style="margin-right:10px;" class="checkbox-inline" name="Call to Action" id="blog" value="option1Analytics">Blog
+</label>
+</div>
+   <div class="col-xs-12 col-sm-6">
+<label value="mapSearch">
+<input class="maxFour" value="mapSearch" type="checkbox" style="margin-right:10px;" class="checkbox-inline" name="Call to Action" id="mapSearch">Map Search
+</label>
+</div>
+   <div class="col-xs-12 col-sm-6">
+<label value="searchForHomes">
+<input class="maxFour" value="searchForHomes" type="checkbox" style="margin-right:10px;" class="checkbox-inline" name="Call to Action" id="searchForHomes">Search For Homes
+</label>
+</div>
+   <div class="col-xs-12 col-sm-6">
+<label value="homeWorth">
+<input class="maxFour" value="homeWorth" type="checkbox" style="margin-right:10px;" class="checkbox-inline" name="Call to Action" id="homeWorth">What's Your Home Worth?
+</label>
+</div>
+   <div class="col-xs-12 col-sm-6">
+<label value="dreamHome">
+<input class="maxFour" value="dreamHome" type="checkbox" style="margin-right:10px;" class="checkbox-inline" name="Call to Action" id="dreamHome">Find Your Dream Home
+</label>
+</div>
+   <div class="col-xs-12 col-sm-6">
+<label value="morningCoffee">
+<input class="maxFour" value="morningCoffee" type="checkbox" style="margin-right:10px;" class="checkbox-inline" name="Call to Action" id="morningCoffee">Morning Coffee
+</label>
+</div>
+   <div class="col-xs-12 col-sm-6">
+<label value="newsletter">
+<input class="maxFour" value="newsletter" type="checkbox" style="margin-right:10px;" class="checkbox-inline" name="Call to Action" id="newsletter">Newsletter
+</label>
+</div>
+   <div class="col-xs-12 col-sm-6">
+<label value="aboutUs">
+<input class="maxFour" value="aboutUs" type="checkbox" style="margin-right:10px;" class="checkbox-inline" name="Call to Action" id="aboutUs">About Us
+</label>
+</div>
+   <div class="col-xs-12 col-sm-6">
+<label value="listingEmail">
+<input class="maxFour" value="listingEmail" type="checkbox" style="margin-right:10px;" class="checkbox-inline" name="Call to Action" id="listingsEmail">Listings By Email
+</label>
+</div>
+   <div class="col-xs-12 col-sm-6">
+<label value="meetTeam">
+<input class="maxFour" value="meetTeam" type="checkbox" style="margin-right:10px;" class="checkbox-inline" name="Call to Action" id="meetTeam">Meet The Team
+</label>
+</div>
+   <div class="col-xs-12 col-sm-6">
+<label value="marketStats">
+<input class="maxFour" value="marketStats" type="checkbox" style="margin-right:10px;" class="checkbox-inline" name="Call to Action" id="marketStats">Market Stats
+</label>
+</div>
+</div>
+</div>
+<div class="panel-footer">7 of 9</div>
+</div>
+</div>
+
+
+<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+<div class="panel panel-default">
+<div class="panel-heading text-center">
+<h3>Analytics</h3>
+<p>Our websites include VisiStat Web Analytics, but we know many people also like to use Google Analytics. If you use Google Analytics, let us know below and we can add the tracking code to your website. If you don't have this information now, it can be added in the future.</p>
+</div>
+<div class="panel-body">
+<div class="form-group" ng-controller="FormController">
+<div class="row">
+<div class="col-xs-12 col-sm-6">
+<label for="doYouHaveGoogleAnalytics">Do you have a Google Analytics account?</label>
+<div class="radio form-group">
+<label>
+<input type="radio" name="Has Google Analytics" id="noGoogleAnalyticsRadioButton" ng-model="checkedGoogle" ng-value="false" value="no" ng-click="uncheckGoogle($event)">No
+</label>
+<label>
+<input type="radio" name="Has Google Analytics" id="yesGoogleAnalyticsRadioButton" ng-model="checkedGoogle" ng-value="true" value="yes" ng-click="uncheckGoogle($event)">Yes
+</label>
+</div>
+</div>
+<div class="form-group col-xs-12 col-sm-6" ng-show="checkedGoogle">
+<label for="googleAnalyticsID">Google Analytics ID</label>
+<div class="form-group">
+<input class="form-control" type="text" name="Google Analytics ID" placeholder="Analytics ID">
+Analytics ID looks like this: <em>UA-123456-1</em>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel-footer">8 of 9</div>
+</div>
+</div>
+
+<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+<div class="panel panel-default">
+<div class="panel-heading text-center">
+<h3>Website Information</h3>
+</div>
+<div class="panel-body" ng-controller="FormController">
+<div class="form-group">
+<label for="Company/Website Name">Website Title</label>
+<input type="text" class="form-control" id="" name="Website Title" placeholder="Website Title">
+</div>
+<p>The website title appears on the tab in your browser and is displayed in search results. If you have something particular in mind let us know, otherwise we'll use our default title which is customized to your market and company name.</p>
+</div>
+
+<div class="panel-body" ng-controller="FormController">
+<div class="form-group">
+<label for="doYouHaveImageVideo" class="">Would you like an image or a video for the background?</label>
+<div class="radio form-group">
+<label>
+<input type="radio" name="Has ImageVideo" id="noImageVideo" ng-model="checkedImageVideo" ng-value="false" value="no" ng-click="uncheckImageVideo($event)">Image
+</label>
+<label>
+<input type="radio" name="Has ImageVideo" id="yesImageVideo" ng-model="checkedImageVideo" ng-value="true" value="yes" ng-click="uncheckImageVideo($event)">Video
+</label>
+</div>
+</div>
+<div class="form-group" ng-hide="checkedImageVideo">
+<div class="form-group">
+<input type="file" name="file" onchange="angular.element(this).scope().uploadFile(this.files)"/>Upload Background Image
+</div>
+</div>
+<div class="form-group" ng-show="checkedImageVideo">
+<div class="form-group">
+<label for="YouTube URL">YouTube URL</label>
+<input type="url" class="form-control" id="" name="YouTube" placeholder="YouTube URL">
+</div>
+</div>
+</div>
+<div class="panel-footer">9 of 9</div>
+
+
+</div>
+</div>
+
+<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+<div class="form-group">
+<button ng-disabled='userForm.$invalid' type="submit" class="btn btn-primary btn-lg">Submit</button>
+</div>
+</div>
+<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+<h5 style="text-align: center;">© Copyright 2016 Real Pro Systems | All Rights Reserved</h5>
+</div>
+
+
+
+
+<script>
+
+//cheked boxes and radio functionality
+
+$('input.maxFour').on('change', function (e) {
+   if ($('input.maxFour:checked').length > 4) {
+       $(this).prop('checked', false);
+       alert("Only up to 4 buttons allowed.");
+   }
+});
+
+$('input[id=domainCheckbox]').on('change', function (e) {
+   if ($('input[id=domainCheckbox]:checked').length > 1) {
+       $(this).prop('checked', false);
+   }
+});
+
+$('input.colorSelect').on('change', function (e) {
+   if ($('input.colorSelect:checked').length > 1) {
+       $(this).prop('checked', false);
+   }
+});
+
+var app = angular.module("htmlFormApp", []);
+app.controller("FormController", function($scope) {
+
+$scope.uncheckDomain = function() {
+       $scope.uncheckDomain = !$scope.uncheckDomain;
+   };
+
+   $scope.uncheckLogo = function() {
+       $scope.uncheckLogo = !$scope.uncheckLogo;
+   };
+
+$scope.uncheckGoogle = function() {
+       $scope.uncheckGoogle = !$scope.uncheckGoogle;
+   };
+
+   $scope.uncheckImageVideo = function() {
+       $scope.uncheckImageVideo = !$scope.uncheckImageVideo;
+   };
+
+   $scope.uncheckColor = function() {
+       $scope.uncheckColor = !$scope.uncheckColor;
+   };
+
+$scope.checkedDomain = false;
+$scope.checkedGoogle = false;
+$scope.checkedLogo = false;
+$scope.checkedImageVideo = false;
+$scope.checkedColor = false;
+
+});
+
+//success or error colour for inputs
+
+$(document).ready(function() {
+
+$('label.colour').click(function() {
+
+$('label.colour').removeClass('buttonBackground');
+
+$(this).addClass('buttonBackground');
+
+});
+});
+
+//upload files
+
+$scope.uploadFile = function(files) {
+   var fd = new FormData();
+   //Take the first selected file
+   fd.append("file", files[0]);
+
+   $http.post(uploadUrl, fd, {
+       withCredentials: true,
+       headers: {'Content-Type': undefined },
+       transformRequest: angular.identity
+   }).success( success ).error( error );
+
+};
+
+</script>
+
+<script>
+//custom colour choices
+
+$('.jscolor').on('change', function() {
+    var color1 = $('#custColor1').css('background-color');
+    var color2 = $('#custColor2').css('background-color');
+    $('#colourContainer6').css('background-color',color1);
+    $('#triangle-topleft6').css('border-top-color',color2);
+});
+
+</script>
+
+<style>
+
+#colourContainer1 {
+ height: 100px;
+ width: 100px;
+ overflow: hidden;
+ background-color: rgb(0,84,160);
+ border: black;
+}
+
+#triangle-topleft1 {
+ width: 0;
+ height: 0;
+ border-top: 100px solid rgb(206,0,0);
+ border-right: 100px solid transparent;
+}
+
+#colourContainer2 {
+ height: 100px;
+ width: 100px;
+ overflow: hidden;
+ background-color: rgb(0,35,68);
+ border: black;
+}
+
+#triangle-topleft2 {
+ width: 0;
+ height: 0;
+ border-top: 100px solid rgb(248,235,195);
+ border-right: 100px solid transparent;
+}
+
+#colourContainer3 {
+ height: 100px;
+ width: 100px;
+ overflow: hidden;
+ background-color: #B40101;
+ border: black;
+}
+
+#triangle-topleft3 {
+ width: 0;
+ height: 0;
+ border-top: 100px solid #DFDFD9 ;
+ border-right: 100px solid transparent;
+}
+
+#colourContainer4 {
+ height: 100px;
+ width: 100px;
+ overflow: hidden;
+ background-color: #552448;
+ border: black;
+}
+
+#triangle-topleft4 {
+ width: 0;
+ height: 0;
+ border-top: 100px solid #EAE3D4 ;
+ border-right: 100px solid transparent;
+}
+
+#colourContainer5 {
+ height: 100px;
+ width: 100px;
+ overflow: hidden;
+ background-color: black;
+ border: black;
+}
+
+#triangle-topleft5 {
+ width: 0;
+ height: 0;
+ border-top: 100px solid #FF9900 ;
+ border-right: 100px solid transparent;
+}
+
+#colourContainer6 {
+ height: 100px;
+ width: 100px;
+ overflow: hidden;
+ background-color: transparent;
+}
+
+#triangle-topleft6 {
+ width: 0;
+ height: 0;
+ border-top: 100px solid transparent ;
+ border-right: 100px solid transparent;
+}
+
+input.ng-valid {
+ background-color: #e6f2e6;
+}
+
+input.ng-touched.ng-invalid {
+   background-color: #FCE8EC;
+ }
+
+input.ng-valid {
+ background-color: #e6f2e6;
+}
+
+input.ng-touched.ng-invalid {
+   background-color: #FCE8EC;
+ }
+
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+font-family: 'Oswald', sans-serif;
+}
+.panel-heading h3 {
+margin-top: 0px;
+}
+.btn-design {padding: 10px; margin-bottom: 10px;}
+@media(max-width: 415px) {
+.demoImage {
+height: 125px;
+}
+}
+
+.buttonBackground {
+   background-color: #204d74;
+}
+
+.custColor {width:100px; float:left; clear:both;}
+
+                    .custColorLabel {display:block; clear:both;}
+
+</style>
+
+</form>
+</div>
+</div>
+</body>
+</html>
